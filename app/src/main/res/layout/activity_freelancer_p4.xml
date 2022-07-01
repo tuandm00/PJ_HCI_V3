@@ -71,6 +71,7 @@
         android:layout_marginStart="48dp"
         android:layout_marginTop="20dp"
         android:text="Thông tin dự án"
+        android:textColor="@color/black"
         android:textSize="15sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
@@ -99,6 +100,8 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="180dp"
         android:text="00001"
+        android:textColor="@color/black"
+
         android:textSize="15sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView12" />
@@ -110,6 +113,8 @@
         android:layout_marginStart="44dp"
         android:layout_marginTop="8dp"
         android:text="ID dự án"
+        android:textColor="@color/black"
+
         android:textSize="15sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView12" />
@@ -121,6 +126,8 @@
         android:layout_marginStart="184dp"
         android:layout_marginTop="16dp"
         android:text="Đến từ"
+        android:textColor="@color/black"
+
         android:textSize="15sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView26" />
@@ -132,6 +139,8 @@
         android:layout_marginStart="44dp"
         android:layout_marginTop="8dp"
         android:text="Hình thức làm việc"
+        android:textColor="@color/black"
+
         android:textSize="15sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView16" />
@@ -143,6 +152,7 @@
         android:layout_marginStart="184dp"
         android:layout_marginTop="8dp"
         android:text="Đã đăng"
+        android:textColor="@color/black"
         android:textSize="15sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView28" />
@@ -154,7 +164,9 @@
         android:layout_marginStart="44dp"
         android:layout_marginTop="32dp"
         android:text="Hình thức trả lương"
+        android:textColor="@color/black"
         android:textSize="15sp"
+
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView16" />
 
@@ -175,6 +187,8 @@
         android:layout_marginStart="48dp"
         android:layout_marginTop="308dp"
         android:text="Thông tin nhà tuyển dụng"
+        android:textColor="@color/black"
+
         android:textSize="15sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
@@ -186,7 +200,9 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
         android:layout_marginEnd="92dp"
-        android:text="250.000đ-300.000đ"
+        android:text="250.000đ - 300.000đ"
+        android:textColor="@color/black"
+
         android:textSize="15sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView21" />
@@ -198,6 +214,8 @@
         android:layout_marginTop="4dp"
         android:layout_marginEnd="148dp"
         android:text="Làm Online"
+        android:textColor="@color/black"
+
         android:textSize="15sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView22" />
@@ -209,6 +227,8 @@
         android:layout_marginStart="280dp"
         android:layout_marginTop="16dp"
         android:text="Hà Nội"
+        android:textColor="@color/black"
+
         android:textSize="15sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView26" />
@@ -220,6 +240,8 @@
         android:layout_marginStart="184dp"
         android:layout_marginTop="8dp"
         android:text="Tham gia"
+        android:textColor="@color/black"
+
         android:textSize="15sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView27" />
@@ -231,6 +253,8 @@
         android:layout_marginStart="32dp"
         android:layout_marginTop="8dp"
         android:text="23/05/2022"
+        android:textColor="@color/black"
+
         android:textSize="15sp"
         app:layout_constraintStart_toEndOf="@+id/textView28"
         app:layout_constraintTop_toBottomOf="@+id/textView30" />
@@ -242,7 +266,9 @@
         android:layout_marginStart="44dp"
         android:layout_marginTop="4dp"
         android:text="Địa điểm"
+        android:textColor="@color/black"
         android:textSize="15sp"
+
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView14" />
 
@@ -253,7 +279,9 @@
         android:layout_marginTop="4dp"
         android:layout_marginEnd="152dp"
         android:text="Toàn quốc"
+        android:textColor="@color/black"
         android:textSize="15sp"
+
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView20" />
 
@@ -264,6 +292,8 @@
         android:layout_marginTop="4dp"
         android:layout_marginEnd="128dp"
         android:text="Trả theo dự án"
+        android:textColor="@color/black"
+
         android:textSize="15sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView23" />
@@ -298,6 +328,8 @@
         android:layout_marginStart="44dp"
         android:layout_marginTop="4dp"
         android:text="Ngân sách"
+        android:textColor="@color/black"
+
         android:textSize="15sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView15" />
@@ -309,7 +341,9 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="144dp"
         android:text="26/05/2022"
+        android:textColor="@color/black"
         android:textSize="15sp"
+
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView19" />
 
@@ -320,6 +354,8 @@
         android:layout_marginStart="44dp"
         android:layout_marginTop="8dp"
         android:text="Ngày đăng"
+        android:textColor="@color/black"
+
         android:textSize="15sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView13" />
