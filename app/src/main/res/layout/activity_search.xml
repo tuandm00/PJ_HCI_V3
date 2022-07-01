@@ -18,31 +18,30 @@
 
     <TextView
         android:id="@+id/textViewFJ"
-        android:layout_width="228dp"
-        android:layout_height="61dp"
+        android:layout_width="230dp"
+        android:layout_height="78dp"
         android:layout_marginStart="10dp"
-        android:text="FreelancerJob"
+        android:text="Công Việc Freelance"
         android:textColor="#FF9800"
         android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.404"
+        app:layout_constraintHorizontal_bias="0.644"
         app:layout_constraintStart_toEndOf="@+id/imageView2"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.061" />
+        app:layout_constraintVertical_bias="0.029" />
 
     <ImageView
         android:id="@+id/imageView3"
         android:layout_width="48dp"
         android:layout_height="37dp"
-        android:layout_marginStart="220dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.058"
-        app:layout_constraintStart_toEndOf="@+id/imageView2"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.023"
+        app:layout_constraintBottom_toBottomOf="@+id/textViewFJ"
+        app:layout_constraintEnd_toEndOf="@+id/textViewFJ"
+        app:layout_constraintHorizontal_bias="0.785"
+        app:layout_constraintStart_toStartOf="@+id/textViewFJ"
+        app:layout_constraintTop_toTopOf="@+id/textViewFJ"
+        app:layout_constraintVertical_bias="0.707"
         app:srcCompat="@drawable/logo2"
         tools:ignore="MissingConstraints" />
 

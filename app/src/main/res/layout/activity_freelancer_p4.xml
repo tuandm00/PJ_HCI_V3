@@ -4,53 +4,62 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:background="@color/white"
     tools:context=".Freelancer_P4">
 
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="match_parent"
         android:layout_height="35dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
         android:background="#CCF97700"
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.01"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="5dp">
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints">
 
         <ImageView
             android:id="@+id/imageViewBack"
-            android:layout_marginLeft="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
             app:srcCompat="@drawable/imgback"
             tools:ignore="MissingConstraints" />
+
         <ImageView
             android:id="@+id/imageViewList"
-            android:layout_marginLeft="50dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
             app:srcCompat="@drawable/imglist"
             tools:ignore="MissingConstraints" />
+
         <ImageView
             android:id="@+id/imageViewSearch"
-            android:layout_marginLeft="50dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
             app:srcCompat="@drawable/imgsearch"
             tools:ignore="MissingConstraints" />
+
         <ImageView
             android:id="@+id/imageViewSave"
-            android:layout_marginLeft="50dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
             app:srcCompat="@drawable/imgsave"
             tools:ignore="MissingConstraints" />
+
         <ImageView
             android:id="@+id/imageViewProfile"
-            android:layout_marginLeft="50dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
             app:srcCompat="@drawable/imgperson"
             tools:ignore="MissingConstraints" />
     </LinearLayout>
@@ -69,12 +78,13 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="203dp"
-        android:layout_height="25dp"
+        android:layout_width="301dp"
+        android:layout_height="39dp"
         android:gravity="center"
-        android:text="FREELANCER JOB"
+        android:text="Công Việc Freelance"
         android:textColor="#0636E6"
-        android:textSize="20sp"
+        android:textSize="25sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.48"

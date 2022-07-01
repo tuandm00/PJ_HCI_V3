@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:background="@color/white"
     tools:context=".Freelancer_P3">
 
 
@@ -12,9 +13,10 @@
         android:layout_width="234dp"
         android:layout_height="42dp"
         android:gravity="center"
-        android:text="FREELANCER JOB"
+        android:text="Công Việc Freelance"
         android:textColor="#0636E6"
-        android:textSize="20sp"
+        android:textSize="25sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
@@ -36,37 +38,41 @@
 
         <ImageView
             android:id="@+id/imageViewBack"
-            android:layout_marginLeft="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
             app:srcCompat="@drawable/imgback"
             tools:ignore="MissingConstraints" />
+
         <ImageView
             android:id="@+id/imageViewList"
-            android:layout_marginLeft="50dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
             app:srcCompat="@drawable/imglist"
             tools:ignore="MissingConstraints" />
+
         <ImageView
             android:id="@+id/imageViewSearch"
-            android:layout_marginLeft="50dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
             app:srcCompat="@drawable/imgsearch"
             tools:ignore="MissingConstraints" />
+
         <ImageView
             android:id="@+id/imageViewSave"
-            android:layout_marginLeft="50dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
             app:srcCompat="@drawable/imgsave"
             tools:ignore="MissingConstraints" />
+
         <ImageView
             android:id="@+id/imageViewProfile"
-            android:layout_marginLeft="50dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
             app:srcCompat="@drawable/imgperson"
             tools:ignore="MissingConstraints" />
     </LinearLayout>
@@ -78,6 +84,8 @@
         android:layout_marginStart="4dp"
         android:layout_marginTop="28dp"
         android:text="Viết content tiếng Anh mảng Coin ,Crypto"
+
+        android:textColor="@color/black"
         android:textSize="15sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
@@ -89,6 +97,7 @@
         android:layout_height="25dp"
         android:layout_marginTop="12dp"
         android:text="Dịch vụ cần thuê:"
+        android:textColor="@color/black"
         android:textSize="15sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -115,6 +124,7 @@
         android:layout_marginTop="44dp"
         android:layout_marginEnd="20dp"
         android:text="Mình cần tìm bạn viết Tiếng Anh, viết bài SEO cho website Tiếng Anh về mảng coin, crypto. Tiêu đề mình đưa ra, bạn viết theo tiêu đề đó."
+        android:textColor="@color/black"
 
         android:textSize="17sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -127,8 +137,10 @@
         android:layout_marginStart="4dp"
         android:layout_marginTop="12dp"
         android:text="Năng lực:"
+        android:textColor="@color/black"
         android:textSize="15sp"
         android:textStyle="bold"
+
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView7" />
 
@@ -210,6 +222,8 @@
         android:layout_marginStart="4dp"
         android:layout_marginTop="12dp"
         android:text="Chi tiết công việc:"
+        android:textColor="@color/black"
+
         android:textSize="15sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
