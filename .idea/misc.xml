@@ -9,8 +9,8 @@
         <entry key="..\:/Code4AndroiStudio/PI_HCI_v3/app/src/main/res/layout/activity_freelancer_main.xml" value="0.264" />
         <entry key="..\:/Code4AndroiStudio/PI_HCI_v3/app/src/main/res/layout/activity_freelancer_p1.xml" value="0.264" />
         <entry key="..\:/Code4AndroiStudio/PI_HCI_v3/app/src/main/res/layout/activity_freelancer_p2.xml" value="0.11684782608695653" />
-        <entry key="..\:/Code4AndroiStudio/PI_HCI_v3/app/src/main/res/layout/activity_freelancer_p3.xml" value="0.264" />
-        <entry key="..\:/Code4AndroiStudio/PI_HCI_v3/app/src/main/res/layout/activity_freelancer_p4.xml" value="0.136" />
+        <entry key="..\:/Code4AndroiStudio/PI_HCI_v3/app/src/main/res/layout/activity_freelancer_p3.xml" value="0.2" />
+        <entry key="..\:/Code4AndroiStudio/PI_HCI_v3/app/src/main/res/layout/activity_freelancer_p4.xml" value="0.2" />
         <entry key="..\:/Code4AndroiStudio/PI_HCI_v3/app/src/main/res/layout/activity_freelancer_p5.xml" value="0.2" />
         <entry key="..\:/Code4AndroiStudio/PI_HCI_v3/app/src/main/res/layout/activity_freelancer_p6.xml" value="0.264" />
         <entry key="..\:/Code4AndroiStudio/PI_HCI_v3/app/src/main/res/layout/activity_freelancer_p7.xml" value="0.2" />
@@ -22,23 +22,6 @@
         <entry key="..\:/Code4AndroiStudio/PI_HCI_v3/app/src/main/res/layout/activity_menu.xml" value="0.1" />
         <entry key="..\:/Code4AndroiStudio/PI_HCI_v3/app/src/main/res/layout/activity_search.xml" value="0.11684782608695653" />
         <entry key="..\:/Code4AndroiStudio/PI_HCI_v3/app/src/main/res/layout/info_freelancer.xml" value="0.11684782608695653" />
-        <entry key="..\:/FPT_HCI201/Project/Group_Project/PJ_HCI_V3/PJ_HCI_V3/app/src/main/res/layout/activity_confirm_password_reset_page.xml" value="0.20008550662676358" />
-        <entry key="..\:/FPT_HCI201/Project/Group_Project/PJ_HCI_V3/PJ_HCI_V3/app/src/main/res/layout/activity_forgot_password_page.xml" value="0.176" />
-        <entry key="..\:/FPT_HCI201/Project/Group_Project/PJ_HCI_V3/PJ_HCI_V3/app/src/main/res/layout/activity_freelancer_main.xml" value="0.4" />
-        <entry key="..\:/FPT_HCI201/Project/Group_Project/PJ_HCI_V3/PJ_HCI_V3/app/src/main/res/layout/activity_freelancer_p1.xml" value="0.24375" />
-        <entry key="..\:/FPT_HCI201/Project/Group_Project/PJ_HCI_V3/PJ_HCI_V3/app/src/main/res/layout/activity_freelancer_p2.xml" value="0.24375" />
-        <entry key="..\:/FPT_HCI201/Project/Group_Project/PJ_HCI_V3/PJ_HCI_V3/app/src/main/res/layout/activity_freelancer_p3.xml" value="0.4" />
-        <entry key="..\:/FPT_HCI201/Project/Group_Project/PJ_HCI_V3/PJ_HCI_V3/app/src/main/res/layout/activity_freelancer_p4.xml" value="0.4" />
-        <entry key="..\:/FPT_HCI201/Project/Group_Project/PJ_HCI_V3/PJ_HCI_V3/app/src/main/res/layout/activity_freelancer_p5.xml" value="0.264" />
-        <entry key="..\:/FPT_HCI201/Project/Group_Project/PJ_HCI_V3/PJ_HCI_V3/app/src/main/res/layout/activity_freelancer_p6.xml" value="0.4" />
-        <entry key="..\:/FPT_HCI201/Project/Group_Project/PJ_HCI_V3/PJ_HCI_V3/app/src/main/res/layout/activity_freelancer_p7.xml" value="0.20008550662676358" />
-        <entry key="..\:/FPT_HCI201/Project/Group_Project/PJ_HCI_V3/PJ_HCI_V3/app/src/main/res/layout/activity_freelancer_p8.xml" value="0.20008550662676358" />
-        <entry key="..\:/FPT_HCI201/Project/Group_Project/PJ_HCI_V3/PJ_HCI_V3/app/src/main/res/layout/activity_google_sign_in.xml" value="0.20008550662676358" />
-        <entry key="..\:/FPT_HCI201/Project/Group_Project/PJ_HCI_V3/PJ_HCI_V3/app/src/main/res/layout/activity_home_page.xml" value="0.24375" />
-        <entry key="..\:/FPT_HCI201/Project/Group_Project/PJ_HCI_V3/PJ_HCI_V3/app/src/main/res/layout/activity_login_page.xml" value="0.264" />
-        <entry key="..\:/FPT_HCI201/Project/Group_Project/PJ_HCI_V3/PJ_HCI_V3/app/src/main/res/layout/activity_main.xml" value="0.20008550662676358" />
-        <entry key="..\:/FPT_HCI201/Project/Group_Project/PJ_HCI_V3/PJ_HCI_V3/app/src/main/res/layout/activity_search.xml" value="0.264" />
-        <entry key="..\:/FPT_HCI201/Project/Group_Project/PJ_HCI_V3/PJ_HCI_V3/app/src/main/res/layout/info_freelancer.xml" value="0.536" />
       </map>
     </option>
   </component>

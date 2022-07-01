@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Freelancer_P8">
+
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="match_parent"
@@ -13,43 +14,47 @@
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.01"
+        app:layout_constraintVertical_bias="1.0"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="5dp">
+        tools:layout_editor_absoluteX="-46dp">
 
         <ImageView
             android:id="@+id/imageViewBack"
-            android:layout_marginLeft="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
             app:srcCompat="@drawable/imgback"
             tools:ignore="MissingConstraints" />
+
         <ImageView
             android:id="@+id/imageViewList"
-            android:layout_marginLeft="50dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
             app:srcCompat="@drawable/imglist"
             tools:ignore="MissingConstraints" />
+
         <ImageView
             android:id="@+id/imageViewSearch"
-            android:layout_marginLeft="50dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
             app:srcCompat="@drawable/imgsearch"
             tools:ignore="MissingConstraints" />
+
         <ImageView
             android:id="@+id/imageViewSave"
-            android:layout_marginLeft="50dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
             app:srcCompat="@drawable/imgsave"
             tools:ignore="MissingConstraints" />
+
         <ImageView
             android:id="@+id/imageViewProfile"
-            android:layout_marginLeft="50dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
             app:srcCompat="@drawable/imgperson"
             tools:ignore="MissingConstraints" />
     </LinearLayout>
@@ -58,7 +63,6 @@
         android:id="@+id/textView51"
         android:layout_width="228dp"
         android:layout_height="57dp"
-        android:layout_marginTop="20dp"
         android:gravity="center"
         android:text="Công việc đã lưu"
         android:textSize="25sp"
@@ -66,7 +70,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/imageView25"
