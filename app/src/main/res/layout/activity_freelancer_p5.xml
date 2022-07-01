@@ -57,14 +57,15 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="188dp"
-        android:layout_height="25dp"
-        android:layout_marginStart="120dp"
-        android:layout_marginTop="80dp"
+        android:layout_width="235dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="64dp"
         android:gravity="center"
-        android:text="FREELANCER JOB"
+        android:text="Công Việc Freelance"
         android:textColor="#0636E6"
-        android:textSize="20sp"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 

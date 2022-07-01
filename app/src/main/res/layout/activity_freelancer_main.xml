@@ -4,17 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:background="@color/white"
     tools:context=".MainActivity">
 
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="188dp"
-        android:layout_height="25dp"
+        android:layout_width="242dp"
+        android:layout_height="39dp"
         android:gravity="center"
-        android:text="FREELANCER JOB"
+        android:text="Công Việc Freelance"
         android:textColor="#0636E6"
-        android:textSize="20sp"
+        android:textSize="25sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.434"
@@ -24,11 +26,10 @@
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rvFreelancer"
-        android:layout_width="402dp"
-        android:layout_height="391dp"
-        android:layout_marginTop="64dp"
+        android:layout_width="383dp"
+        android:layout_height="376dp"
+        android:layout_marginTop="88dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.444"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
@@ -38,6 +39,7 @@
         android:layout_height="36dp"
         android:gravity="center"
         android:text="TÊN"
+        android:textColor="@color/black"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -53,44 +55,49 @@
         android:background="#CCF97700"
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.01"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="5dp">
+        tools:ignore="MissingConstraints">
 
         <ImageView
             android:id="@+id/imageViewBack"
-            android:layout_marginLeft="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
             app:srcCompat="@drawable/imgback"
             tools:ignore="MissingConstraints" />
+
         <ImageView
             android:id="@+id/imageViewList"
-            android:layout_marginLeft="50dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
             app:srcCompat="@drawable/imglist"
             tools:ignore="MissingConstraints" />
+
         <ImageView
             android:id="@+id/imageViewSearch"
-            android:layout_marginLeft="50dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
             app:srcCompat="@drawable/imgsearch"
             tools:ignore="MissingConstraints" />
+
         <ImageView
             android:id="@+id/imageViewSave"
-            android:layout_marginLeft="50dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
             app:srcCompat="@drawable/imgsave"
             tools:ignore="MissingConstraints" />
+
         <ImageView
             android:id="@+id/imageViewProfile"
-            android:layout_marginLeft="50dp"
-            android:layout_width="wrap_content"
+            android:layout_width="48dp"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
             app:srcCompat="@drawable/imgperson"
             tools:ignore="MissingConstraints" />
     </LinearLayout>
@@ -101,10 +108,11 @@
         android:layout_height="36dp"
         android:gravity="center"
         android:text="THÔNG TIN"
+        android:textColor="@color/black"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.946"
+        app:layout_constraintHorizontal_bias="0.863"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2"
         app:layout_constraintVertical_bias="0.056" />

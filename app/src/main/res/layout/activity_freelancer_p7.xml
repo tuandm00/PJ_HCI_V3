@@ -60,7 +60,7 @@
         android:layout_height="30dp"
         android:layout_marginTop="16dp"
         android:gravity="center"
-        android:text="Hồ sơ"
+        android:text="Hồ Sơ"
         android:textColor="#394EBC"
         android:textSize="25sp"
         android:textStyle="bold"
