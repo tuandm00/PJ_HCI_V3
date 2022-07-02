@@ -13,6 +13,7 @@
         android:layout_width="242dp"
         android:layout_height="39dp"
         android:text="Công Việc Freelance"
+        android:layout_marginTop="10dp"
         android:layout_alignParentTop="true"
         android:layout_centerInParent="true"
         android:textColor="#0636E6"
