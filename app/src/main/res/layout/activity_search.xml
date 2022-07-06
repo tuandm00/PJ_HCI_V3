@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     tools:context=".SearchActivity">
     <ImageView
         android:id="@+id/imageView2"
@@ -91,6 +92,7 @@
         android:layout_height="48dp"
         android:layout_marginTop="60dp"
         android:spinnerMode="dropdown"
+        android:background="@drawable/button_change"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
@@ -100,6 +102,8 @@
         android:layout_width="278dp"
         android:layout_height="48dp"
         android:spinnerMode="dropdown"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_change"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintStart_toStartOf="parent"
@@ -110,6 +114,8 @@
         android:layout_width="277dp"
         android:layout_height="48dp"
         android:spinnerMode="dropdown"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_change"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/spinner2" />
@@ -117,9 +123,10 @@
     <Button
         android:id="@+id/buttonXacNhan"
         android:layout_width="133dp"
-        android:layout_height="48dp"
-        android:backgroundTint="#FF9800"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
         android:text="Xác Nhận"
+        android:background="@drawable/button_change"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/spinner3" />
