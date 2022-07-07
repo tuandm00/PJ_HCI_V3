@@ -2,14 +2,20 @@ package com.example.pi_hci_v3;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.google.android.material.bottomnavigation.BottomNavigationView;
+import com.google.android.material.navigation.NavigationBarView;
 
 import java.util.ArrayList;
 
@@ -17,7 +23,7 @@ public class FreelancerMainActivity extends AppCompatActivity implements OnItemC
     ArrayList<Freelancer> freelancerArrayList;
     Button btnQuaylai, btnTrangke;
     TextView txtTieude, txtGiatien, txtNoidung, txtNgtuyendung, txtDiadiem, txtKynang, txtNgaydang;
-    ImageView imgBack, imgList, imgSearch, imgSave, imgProfile;
+    BottomNavigationView nav;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -35,55 +41,40 @@ public class FreelancerMainActivity extends AppCompatActivity implements OnItemC
         rvFreelancer.setAdapter(freelancerAdapter);
         rvFreelancer.setLayoutManager(new LinearLayoutManager(this));
 
-
-        imgBack = (ImageView) findViewById(R.id.imageViewBack);
-        imgBack.setOnClickListener(new View.OnClickListener() {
+//        Menu
+        nav = findViewById(R.id.nav_bar);
+        nav.setOnItemSelectedListener(new NavigationBarView.OnItemSelectedListener() {
             @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(FreelancerMainActivity.this,Login_Page.class);
-                startActivity(intent);
+            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+                switch (item.getItemId()){
+                    case R.id.back:
+                        Toast.makeText(FreelancerMainActivity.this,"", Toast.LENGTH_SHORT);
+                        Intent intent1 = new Intent(FreelancerMainActivity.this, FreelancerMainActivity.class);
+                        startActivity(intent1);
+                        break;
+                    case R.id.search:
+                        Toast.makeText(FreelancerMainActivity.this,"", Toast.LENGTH_SHORT).show();
+                        Intent intent2 = new Intent(FreelancerMainActivity.this, SearchActivity.class);
+                        startActivity(intent2);
+                        break;
+                    case R.id.save:
+                        Toast.makeText(FreelancerMainActivity.this,"", Toast.LENGTH_SHORT).show();
+                        Intent intent3 = new Intent(FreelancerMainActivity.this, Freelancer_P8.class);
+                        startActivity(intent3);
+                        break;
+                    case R.id.profile:
+                        Toast.makeText(FreelancerMainActivity.this,"", Toast.LENGTH_SHORT).show();
+                        Intent intent4 = new Intent(FreelancerMainActivity.this, Freelancer_P7.class);
+                        startActivity(intent4);
+                        break;
+                }
+                return true;
             }
         });
-        imgList = (ImageView) findViewById(R.id.imageViewList);
-        imgList.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(FreelancerMainActivity.this,FreelancerMainActivity.class);
-                startActivity(intent);
-            }
-        });
-
-        imgSearch = (ImageView) findViewById(R.id.imageViewSearch);
-        imgSearch.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(FreelancerMainActivity.this,SearchActivity.class);
-                startActivity(intent);
-            }
-        });
-
-        imgSave = (ImageView) findViewById(R.id.imageViewSave);
-        imgSave.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(FreelancerMainActivity.this,Freelancer_P8.class);
-                startActivity(intent);
-            }
-        });
-
-        imgProfile = (ImageView) findViewById(R.id.imageViewProfile);
-        imgProfile.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(FreelancerMainActivity.this,Freelancer_P7.class);
-                startActivity(intent);
-            }
-        });
-
-
-
 
     }
+
+
 
     //Click vào nội dung để xem chi tiết
     @Override
