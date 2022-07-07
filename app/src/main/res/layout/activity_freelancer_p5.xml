@@ -1,196 +1,162 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     tools:context=".Freelancer_P5">
-
-    <LinearLayout
-        android:id="@+id/linearLayout"
-        android:layout_width="match_parent"
-        android:layout_height="35dp"
-        android:background="#CCF97700"
-        android:orientation="horizontal"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.01"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="5dp">
-
-        <ImageView
-            android:id="@+id/imageViewBack"
-            android:layout_marginLeft="10dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:srcCompat="@drawable/imgback"
-            tools:ignore="MissingConstraints" />
-        <ImageView
-            android:id="@+id/imageViewList"
-            android:layout_marginLeft="50dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:srcCompat="@drawable/imglist"
-            tools:ignore="MissingConstraints" />
-        <ImageView
-            android:id="@+id/imageViewSearch"
-            android:layout_marginLeft="50dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:srcCompat="@drawable/imgsearch"
-            tools:ignore="MissingConstraints" />
-        <ImageView
-            android:id="@+id/imageViewSave"
-            android:layout_marginLeft="50dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:srcCompat="@drawable/imgsave"
-            tools:ignore="MissingConstraints" />
-        <ImageView
-            android:id="@+id/imageViewProfile"
-            android:layout_marginLeft="50dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:srcCompat="@drawable/imgperson"
-            tools:ignore="MissingConstraints" />
-    </LinearLayout>
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="235dp"
-        android:layout_height="54dp"
-        android:layout_marginTop="64dp"
-        android:gravity="center"
-        android:text="Công Việc Freelance"
-        android:textColor="#0636E6"
-        android:textSize="25sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView33"
-        android:layout_width="400dp"
-        android:layout_height="30dp"
-        android:layout_marginStart="4dp"
-        android:layout_marginTop="172dp"
-        android:background="#E6E6A6"
-        android:text="Liên hệ trực tiếp với Freelancer"
-        android:textSize="15sp"
-        android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView34"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
-        android:layout_marginEnd="24dp"
-        android:text="trungnguyen@gmail.com"
-        android:textColor="#0A27BC"
-        android:textSize="15sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView33" />
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/top_nav"
+        android:text="Công Việc Freelance"
+        android:textAlignment="center"
+        android:textColor="#0636E6"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints" />
 
-    <TextView
-        android:id="@+id/textView35"
-        android:layout_width="167dp"
-        android:layout_height="21dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="24dp"
-        android:text="09899558855"
-        android:textSize="15sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView34" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/textView2"
+        android:layout_above="@id/nav_bar"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp">
 
-    <ImageView
-        android:id="@+id/imageView12"
-        android:layout_width="40dp"
-        android:layout_height="26dp"
-        android:layout_marginStart="172dp"
-        android:layout_marginTop="32dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView33"
-        app:srcCompat="@drawable/mail1" />
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout_editor_absoluteX="7dp"
+            tools:layout_editor_absoluteY="36dp">
 
-    <ImageView
-        android:id="@+id/imageView13"
-        android:layout_width="40dp"
-        android:layout_height="26dp"
-        android:layout_marginStart="172dp"
-        android:layout_marginTop="68dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView33"
-        app:srcCompat="@drawable/img_10" />
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="match_parent"
+                android:layout_height="41dp"
+                android:layout_marginTop="56dp"
+                android:background="#FF8F00"
+                android:text="Liên hệ trực tiếp với Freelancer"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:orientation="horizontal"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageView
-        android:id="@+id/imageView14"
-        android:layout_width="122dp"
-        android:layout_height="71dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="20dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView33"
-        app:srcCompat="@drawable/img_8" />
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="68dp"
+                android:layout_marginEnd="16dp"
+                android:text="trungnguyen@gmail.com"
+                android:textColor="#0A27BC"
+                android:textSize="15sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView33" />
 
-    <TextView
-        android:id="@+id/textView36"
-        android:layout_width="375dp"
-        android:layout_height="60dp"
-        android:layout_marginTop="24dp"
-        android:layout_marginEnd="20dp"
-        android:text="Cần liên hệ trực tiếp với Freelancer này?  Bạn sẽ nhận số điện thoại và email của freelancer ngay bây giờ."
-        android:textSize="15sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView14" />
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="167dp"
+                android:layout_height="21dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="16dp"
+                android:text="09899558855"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView34" />
 
-    <Button
-        android:id="@+id/buttonLienhengay"
-        android:layout_width="150dp"
-        android:layout_height="48dp"
-        android:layout_marginTop="32dp"
-        android:text="Liên hệ ngay"
-        android:textSize="15sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.084"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView36" />
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="40dp"
+                android:layout_height="26dp"
+                android:layout_marginStart="176dp"
+                android:layout_marginTop="68dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView33"
+                app:srcCompat="@drawable/mail1" />
 
-    <Button
-        android:id="@+id/buttonTrangchu"
-        android:layout_width="150dp"
-        android:layout_height="48dp"
-        android:layout_marginTop="32dp"
-        android:layout_marginEnd="40dp"
-        android:text="Trang chủ"
-        android:textSize="15sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView36" />
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="40dp"
+                android:layout_height="26dp"
+                android:layout_marginStart="176dp"
+                android:layout_marginTop="104dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView33"
+                app:srcCompat="@drawable/img_10" />
 
-    <ImageView
-        android:id="@+id/imageView15"
-        android:layout_width="336dp"
-        android:layout_height="69dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="56dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonLienhengay"
-        app:layout_constraintVertical_bias="0.95"
-        app:srcCompat="@drawable/img_4" />
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="20dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView33"
+                app:srcCompat="@drawable/img_8" />
 
-    <ImageView
-        android:id="@+id/imageView16"
-        android:layout_width="61dp"
-        android:layout_height="40dp"
-        android:layout_marginTop="132dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.785"
-        app:layout_constraintStart_toEndOf="@+id/imageView15"
-        app:layout_constraintTop_toBottomOf="@+id/buttonLienhengay"
-        app:layout_constraintVertical_bias="0.932"
-        app:srcCompat="@drawable/img_5" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="match_parent"
+                android:layout_height="57dp"
+                android:layout_marginTop="56dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:text="Cần liên hệ trực tiếp với Freelancer này?  Bạn sẽ nhận số điện thoại và email của freelancer ngay bây giờ."
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                app:layout_constraintTop_toBottomOf="@+id/imageView14"
+                tools:layout_editor_absoluteX="0dp" />
+
+            <Button
+                android:id="@+id/buttonLienhengay"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="64dp"
+                android:background="@drawable/button_change"
+                android:text="Liên hệ ngay"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.13"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView36" />
+
+            <Button
+                android:id="@+id/buttonTrangchu"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="64dp"
+                android:layout_marginEnd="28dp"
+                android:background="@drawable/button_change"
+                android:text="Trang chủ"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView36" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+
+    <!--Menu bar-->
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/nav_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/nav_bg"
+        app:itemIconSize="30sp"
+        app:itemIconTint="@drawable/item_active"
+        app:itemTextColor="@drawable/item_active"
+        app:menu="@menu/menu_item_2">
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+</RelativeLayout>

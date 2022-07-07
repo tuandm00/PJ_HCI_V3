@@ -1,121 +1,86 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="match_parent"
     android:background="@color/white"
     tools:context=".MainActivity">
 
-
+<!--Tieu de-->
     <TextView
         android:id="@+id/textView2"
         android:layout_width="242dp"
         android:layout_height="39dp"
-        android:gravity="center"
         android:text="Công Việc Freelance"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
         android:textColor="#0636E6"
         android:textSize="25sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.434"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.136" />
+        android:textStyle="bold"/>
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/rvFreelancer"
-        android:layout_width="383dp"
-        android:layout_height="376dp"
-        android:layout_marginTop="88dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="110dp"
-        android:layout_height="36dp"
-        android:gravity="center"
-        android:text="TÊN"
-        android:textColor="@color/black"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.016"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2"
-        app:layout_constraintVertical_bias="0.056" />
-
+<!--    Body-->
     <LinearLayout
-        android:id="@+id/linearLayout"
         android:layout_width="match_parent"
-        android:layout_height="35dp"
-        android:background="#CCF97700"
-        android:orientation="horizontal"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.01"
-        tools:ignore="MissingConstraints">
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textView2"
+        android:layout_above="@+id/nav_bar"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="vertical">
 
-        <ImageView
-            android:id="@+id/imageViewBack"
-            android:layout_width="wrap_content"
+        <!--Tựa đề-->
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
-            app:srcCompat="@drawable/imgback"
-            tools:ignore="MissingConstraints" />
+            android:orientation="horizontal"
+            android:background="#CCF97700">
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:layout_gravity="left"
+                android:text="TÊN"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
 
-        <ImageView
-            android:id="@+id/imageViewList"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="50dp"
-            app:srcCompat="@drawable/imglist"
-            tools:ignore="MissingConstraints" />
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="60dp"
+                android:gravity="right"
+                android:text="THÔNG TIN"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+        </LinearLayout>
 
-        <ImageView
-            android:id="@+id/imageViewSearch"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="50dp"
-            app:srcCompat="@drawable/imgsearch"
-            tools:ignore="MissingConstraints" />
+        <!--List Job-->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvFreelancer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="14dp"
+            android:background="#E5E5E5">
+        </androidx.recyclerview.widget.RecyclerView>
 
-        <ImageView
-            android:id="@+id/imageViewSave"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="50dp"
-            app:srcCompat="@drawable/imgsave"
-            tools:ignore="MissingConstraints" />
 
-        <ImageView
-            android:id="@+id/imageViewProfile"
-            android:layout_width="48dp"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="50dp"
-            app:srcCompat="@drawable/imgperson"
-            tools:ignore="MissingConstraints" />
+
+
     </LinearLayout>
 
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="110dp"
-        android:layout_height="36dp"
-        android:gravity="center"
-        android:text="THÔNG TIN"
-        android:textColor="@color/black"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.863"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2"
-        app:layout_constraintVertical_bias="0.056" />
+<!--Menu bar-->
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/nav_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/nav_bg"
+        app:itemIconSize="40sp"
+        app:itemIconTint="@drawable/item_active"
+        app:itemTextColor="@drawable/item_active"
+        app:menu="@menu/menu_item"/>
 
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>
