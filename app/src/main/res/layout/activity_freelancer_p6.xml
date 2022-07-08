@@ -17,7 +17,7 @@
         android:background="@drawable/top_nav"
         android:text="Công Việc Freelance"
         android:textAlignment="center"
-        android:textColor="#0636E6"
+        android:textColor="#0000ff"
         android:textSize="30sp"
         android:textStyle="bold"
         tools:ignore="MissingConstraints" />
@@ -54,50 +54,56 @@
                 android:id="@+id/textView34"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="68dp"
                 android:layout_marginEnd="16dp"
                 android:text="trungnguyen@gmail.com"
                 android:textColor="#0A27BC"
                 android:textSize="15sp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView12"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView33" />
+                app:layout_constraintTop_toTopOf="@+id/imageView12" />
 
             <TextView
                 android:id="@+id/textView35"
                 android:layout_width="167dp"
                 android:layout_height="21dp"
-                android:layout_marginTop="20dp"
-                android:layout_marginEnd="16dp"
+                android:layout_marginEnd="32dp"
                 android:text="09899558855"
                 android:textColor="@color/black"
                 android:textSize="15sp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView34" />
+                app:layout_constraintBottom_toBottomOf="@+id/imageView13"
+                app:layout_constraintEnd_toEndOf="@+id/textView34"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/textView34"
+                app:layout_constraintTop_toTopOf="@+id/imageView13"
+                app:layout_constraintVertical_bias="0.0" />
 
             <ImageView
                 android:id="@+id/imageView12"
-                android:layout_width="45dp"
+                android:layout_width="0dp"
                 android:layout_height="30dp"
-                android:layout_marginStart="176dp"
-                android:layout_marginTop="68dp"
-                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="72dp"
+                android:layout_marginEnd="5dp"
+                app:layout_constraintEnd_toStartOf="@+id/textView34"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/imageView14"
                 app:layout_constraintTop_toBottomOf="@+id/textView33"
                 app:srcCompat="@drawable/ic_baseline_mail_outline_24" />
 
             <ImageView
                 android:id="@+id/imageView13"
-                android:layout_width="45dp"
-                android:layout_height="30dp"
-                android:layout_marginStart="176dp"
-                android:layout_marginTop="104dp"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView33"
+                android:layout_width="40dp"
+                android:layout_height="24dp"
+                android:layout_marginTop="5dp"
+                app:layout_constraintEnd_toEndOf="@+id/imageView12"
+                app:layout_constraintStart_toStartOf="@+id/imageView12"
+                app:layout_constraintTop_toBottomOf="@+id/imageView12"
                 app:srcCompat="@drawable/ic_baseline_phone_android_24" />
 
             <ImageView
                 android:id="@+id/imageView14"
-                android:layout_width="150dp"
-                android:layout_height="150dp"
+                android:layout_width="125dp"
+                android:layout_height="122dp"
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="20dp"
                 app:layout_constraintStart_toStartOf="parent"
@@ -128,6 +134,7 @@
                 android:text="Đã gửi Hãy kiểm tra Email"
                 android:textSize="18sp"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.496"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView36" />
 

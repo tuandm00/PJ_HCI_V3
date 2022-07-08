@@ -36,7 +36,7 @@ public class Freelancer_P5 extends AppCompatActivity {
         btnTrangchu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Freelancer_P5.this, Freelancer_P1.class);
+                Intent intent = new Intent(Freelancer_P5.this, FreelancerMainActivity.class);
                 startActivity(intent);
             }
         });

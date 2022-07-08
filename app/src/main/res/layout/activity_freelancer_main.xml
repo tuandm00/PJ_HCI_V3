@@ -43,7 +43,7 @@
                 android:layout_marginLeft="70dp"
                 android:layout_gravity="left"
                 android:text="TÊN"
-                android:textColor="@color/black"
+                android:textColor="@color/white"
                 android:textSize="20sp" />
 
             <TextView
@@ -53,7 +53,7 @@
                 android:layout_marginRight="60dp"
                 android:gravity="right"
                 android:text="THÔNG TIN"
-                android:textColor="@color/black"
+                android:textColor="@color/white"
                 android:textSize="20sp" />
         </LinearLayout>
 
@@ -76,11 +76,13 @@
         android:id="@+id/nav_bar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
+        android:layout_marginBottom="2dp"
         android:background="@drawable/nav_bg"
         app:itemIconSize="40sp"
         app:itemIconTint="@drawable/item_active"
         app:itemTextColor="@drawable/item_active"
-        app:menu="@menu/menu_item"/>
+        app:menu="@menu/menu_item" />
 
 </RelativeLayout>

@@ -22,6 +22,13 @@ public class Freelancer_P8 extends AppCompatActivity {
         setContentView(R.layout.activity_freelancer_p8);
 //        Menu
         nav = findViewById(R.id.nav_bar);
+
+        Intent intentResult =getIntent();
+        String saveResult =intentResult.getStringExtra("SaveSuccess");
+
+        if(saveResult.equals("Save success")){
+            Toast.makeText(Freelancer_P8.this, "Save successfully", Toast.LENGTH_SHORT).show();
+        }
         nav.setOnItemSelectedListener(new NavigationBarView.OnItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {

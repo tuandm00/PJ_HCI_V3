@@ -158,7 +158,7 @@
                     tools:ignore="MissingConstraints" />
 
                 <ImageView
-                    android:id="@+id/imageView8"
+                    android:id="@+id/imgSave"
                     android:layout_width="26dp"
                     android:layout_height="22dp"
                     android:layout_marginTop="20dp"
@@ -168,19 +168,19 @@
                     app:srcCompat="@drawable/img_7"
                     tools:ignore="MissingConstraints" />
 
+
                 <TextView
                     android:id="@+id/textViewSave"
                     android:layout_width="26dp"
                     android:layout_height="22dp"
                     android:layout_marginTop="20dp"
-                    android:layout_marginEnd="24dp"
+                    android:layout_marginEnd="28dp"
                     android:text="Lưu"
                     android:textColor="#2D5198"
                     android:textSize="15sp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
                     tools:ignore="MissingConstraints" />
-
 
                 <TextView
                     android:id="@+id/textView12"
@@ -359,6 +359,7 @@
                     android:layout_marginTop="44dp"
                     android:layout_marginEnd="72dp"
                     android:text="Trung Nguyễn"
+                    android:textStyle="bold"
                     android:textColor="#362CC1"
                     android:textSize="15sp"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -463,8 +464,10 @@
                     android:id="@+id/imageView9"
                     android:layout_width="150dp"
                     android:layout_height="150dp"
-                    android:layout_marginStart="24dp"
+                    android:layout_marginStart="12dp"
                     android:layout_marginTop="36dp"
+                    android:layout_marginEnd="10dp"
+                    app:layout_constraintEnd_toStartOf="@+id/textView27"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/textView25"
                     app:srcCompat="@drawable/img_8"

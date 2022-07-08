@@ -18,6 +18,9 @@ import com.google.android.material.navigation.NavigationBarView;
 public class Freelancer_P3 extends AppCompatActivity {
     Button btnLienhetructiep, btnTrangchu;
     BottomNavigationView nav;
+    ImageView imgSave;
+    TextView txtSave;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -25,6 +28,27 @@ public class Freelancer_P3 extends AppCompatActivity {
 
         btnLienhetructiep = (Button) findViewById(R.id.buttonLienhetructiep);
         btnTrangchu = (Button) findViewById(R.id.buttonTrangchu);
+        imgSave = (ImageView) findViewById(R.id.imgSave);
+        txtSave = (TextView) findViewById(R.id.textViewSave);
+
+        // Save the Job
+        txtSave.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Freelancer_P3.this, Freelancer_P8.class);
+                intent.putExtra("SaveSuccess", "Save success");
+                startActivity(intent);
+            }
+        });
+
+        imgSave.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Freelancer_P3.this, Freelancer_P8.class);
+                intent.putExtra("SaveSuccess", "Save success");
+                startActivity(intent);
+            }
+        });
 
         btnLienhetructiep.setOnClickListener(new View.OnClickListener() {
             @Override

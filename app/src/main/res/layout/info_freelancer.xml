@@ -10,45 +10,45 @@
     <TextView
         android:id="@+id/textViewTieude"
         android:layout_width="0dp"
-        android:layout_height="62dp"
+        android:layout_height="wrap_content"
         android:layout_marginStart="15dp"
-        android:layout_marginTop="4dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="15dp"
         android:text="Tieu de"
         android:textColor="@color/black"
         android:textSize="15sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toStartOf="@+id/textViewNguoituyendung"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textViewGia"
-        android:layout_width="155dp"
+        android:layout_width="0dp"
         android:layout_height="57dp"
-        android:layout_marginTop="72dp"
+        android:layout_marginEnd="15dp"
         android:background="#D9D9D9"
         android:text="Gia tien"
         android:textColor="#254FBA"
         android:textSize="15sp"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textViewNguoituyendung"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/textViewTieude"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/textViewTieude" />
 
     <TextView
         android:id="@+id/textViewNoidung"
-        android:layout_width="159dp"
-        android:layout_height="99dp"
-        android:layout_marginTop="132dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="15dp"
         android:text="Noi dung"
         android:textColor="@color/black"
         android:textSize="15sp"
-        app:layout_constraintEnd_toEndOf="@+id/textViewGia"
+        app:layout_constraintEnd_toStartOf="@+id/textViewNguoituyendung"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/textViewGia"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/textViewGia" />
 
     <TextView
         android:id="@+id/textViewNguoituyendung"
