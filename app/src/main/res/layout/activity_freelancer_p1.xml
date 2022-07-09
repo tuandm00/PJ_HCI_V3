@@ -8,7 +8,7 @@
     tools:context=".Freelancer_P1">
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/textView56"
         android:layout_width="234dp"
         android:layout_height="42dp"
         android:gravity="center"

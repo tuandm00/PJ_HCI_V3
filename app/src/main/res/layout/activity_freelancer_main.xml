@@ -9,22 +9,24 @@
 
 <!--Tieu de-->
     <TextView
-        android:id="@+id/textView2"
-        android:layout_width="242dp"
-        android:layout_height="39dp"
-        android:text="Công Việc Freelance"
-        android:layout_marginTop="10dp"
+        android:id="@+id/textView56"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/top_nav"
+        android:text="Freelance Job"
+        android:textAlignment="center"
         android:textColor="#0636E6"
-        android:textSize="25sp"
-        android:textStyle="bold"/>
-
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints" />
 <!--    Body-->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@+id/textView2"
+        android:layout_below="@+id/textView56"
         android:layout_above="@+id/nav_bar"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"

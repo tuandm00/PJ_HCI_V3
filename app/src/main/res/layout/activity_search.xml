@@ -1,144 +1,94 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
     tools:context=".SearchActivity">
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="116dp"
-        android:layout_height="92dp"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="10dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/logo"
-        tools:ignore="MissingConstraints" />
 
-    <TextView
-        android:id="@+id/textViewFJ"
-        android:layout_width="230dp"
-        android:layout_height="78dp"
-        android:layout_marginStart="10dp"
-        android:text="Công Việc Freelance"
-        android:textColor="#FF9800"
-        android:textSize="30sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.644"
-        app:layout_constraintStart_toEndOf="@+id/imageView2"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.029" />
-
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="48dp"
-        android:layout_height="37dp"
-        app:layout_constraintBottom_toBottomOf="@+id/textViewFJ"
-        app:layout_constraintEnd_toEndOf="@+id/textViewFJ"
-        app:layout_constraintHorizontal_bias="0.785"
-        app:layout_constraintStart_toStartOf="@+id/textViewFJ"
-        app:layout_constraintTop_toTopOf="@+id/textViewFJ"
-        app:layout_constraintVertical_bias="0.707"
-        app:srcCompat="@drawable/logo2"
-        tools:ignore="MissingConstraints" />
-
-    <ImageView
-        android:id="@+id/imgInfo"
-        android:layout_width="104dp"
-        android:layout_height="28dp"
-        android:layout_marginTop="8dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.907"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewFJ"
-        app:srcCompat="@drawable/login" />
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="66dp"
-        android:layout_height="30dp"
-        android:text="HS"
-        android:textAlignment="center"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@+id/imgInfo"
-        app:layout_constraintEnd_toEndOf="@+id/imgInfo"
-        app:layout_constraintHorizontal_bias="0.838"
-        app:layout_constraintStart_toStartOf="@+id/imgInfo"
-        app:layout_constraintTop_toTopOf="@+id/imgInfo" />
-
+    <!--Tieu de-->
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="175dp"
-        android:layout_height="31dp"
-        android:layout_marginTop="164dp"
-        android:text="Tìm Theo Yêu Cầu"
-        android:textAlignment="center"
-        android:textColor="#FF9800"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="TextContrastCheck" />
-
-    <Spinner
-        android:id="@+id/spinner1"
-        android:layout_width="277dp"
-        android:layout_height="48dp"
-        android:layout_marginTop="60dp"
-        android:spinnerMode="dropdown"
-        android:background="@drawable/button_change"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
-
-    <Spinner
-        android:id="@+id/spinner2"
-        android:layout_width="278dp"
-        android:layout_height="48dp"
-        android:spinnerMode="dropdown"
-        android:layout_marginTop="20dp"
-        android:background="@drawable/button_change"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.503"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/spinner1" />
-
-    <Spinner
-        android:id="@+id/spinner3"
-        android:layout_width="277dp"
-        android:layout_height="48dp"
-        android:spinnerMode="dropdown"
-        android:layout_marginTop="20dp"
-        android:background="@drawable/button_change"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/spinner2" />
-
-    <Button
-        android:id="@+id/buttonXacNhan"
-        android:layout_width="133dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:text="Xác Nhận"
-        android:background="@drawable/button_change"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/spinner3" />
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/top_nav"
+        android:text="Tìm Kiếm Theo Yêu Cầu"
+        android:textAlignment="center"
+        android:textColor="#0636E6"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints" />
+<!--    Body-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/textView2"
+        android:layout_above="@id/nav_bar"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/textView56"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="130dp"
+            android:text="Tìm Theo Yêu Cầu"
+            android:textAlignment="center"
+            android:textColor="#FF9800"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            tools:ignore="TextContrastCheck" />
 
-    <ImageView
-        android:id="@+id/imageViewBack"
-        android:layout_width="56dp"
-        android:layout_height="38dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="4dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2"
-        app:srcCompat="@drawable/back" />
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="277dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="60dp"
+            android:spinnerMode="dropdown"
+            android:layout_gravity="center"
+            android:background="@drawable/button_change" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <Spinner
+            android:id="@+id/spinner2"
+            android:layout_width="278dp"
+            android:layout_height="48dp"
+            android:spinnerMode="dropdown"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:background="@drawable/button_change" />
+
+        <Spinner
+            android:id="@+id/spinner3"
+            android:layout_width="277dp"
+            android:layout_height="48dp"
+            android:spinnerMode="dropdown"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:background="@drawable/button_change"/>
+
+        <Button
+            android:id="@+id/buttonXacNhan"
+            android:layout_width="133dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Xác Nhận"
+            android:layout_gravity="center"
+            android:background="@drawable/button_change"/>
+    </LinearLayout>
+
+
+    <!--Menu bar-->
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/nav_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/nav_bg"
+        app:itemIconSize="40sp"
+        app:itemIconTint="@drawable/item_active"
+        app:itemTextColor="@drawable/item_active"
+        app:menu="@menu/menu_item">
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+</RelativeLayout>
