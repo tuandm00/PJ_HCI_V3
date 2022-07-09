@@ -18,6 +18,8 @@ import com.google.android.material.navigation.NavigationBarView;
 public class Freelancer_P3 extends AppCompatActivity {
     Button btnLienhetructiep, btnTrangchu;
     BottomNavigationView nav;
+    ImageView imgSave, imgPhanAnh;
+    TextView txtSave, txtPhanAnh;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -40,6 +42,46 @@ public class Freelancer_P3 extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+//        Phản Ánh
+
+        imgPhanAnh = (ImageView) findViewById(R.id.imageViewPhanAnh);
+        txtPhanAnh = (TextView) findViewById(R.id.textViewPhanAnh);
+        imgPhanAnh.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(Freelancer_P3.this, "Success Cofirm", Toast.LENGTH_SHORT).show();
+            }
+        });
+        txtPhanAnh.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(Freelancer_P3.this, "Success Cofirm", Toast.LENGTH_SHORT).show();
+
+            }
+        });
+
+
+//        Save
+        imgSave = (ImageView) findViewById(R.id.imageViewSave);
+        txtSave = (TextView) findViewById(R.id.textViewSave);
+        imgSave.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(Freelancer_P3.this, "Save Success", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(Freelancer_P3.this, Freelancer_P8.class);
+                startActivity(intent);
+            }
+        });
+        txtSave.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(Freelancer_P3.this, "Save Success", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(Freelancer_P3.this, Freelancer_P8.class);
+                startActivity(intent);
+            }
+        });
+
 
 //        Menu
         nav = findViewById(R.id.nav_bar);
