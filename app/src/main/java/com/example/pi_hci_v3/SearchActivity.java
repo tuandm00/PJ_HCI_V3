@@ -69,7 +69,7 @@ public class SearchActivity extends AppCompatActivity implements AdapterView.OnI
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                 switch (item.getItemId()){
                     case R.id.back:
-                        Toast.makeText(SearchActivity.this,"", Toast.LENGTH_SHORT);
+                        Toast.makeText(SearchActivity.this,"Home Page", Toast.LENGTH_SHORT);
                         Intent intent1 = new Intent(SearchActivity.this, FreelancerMainActivity.class);
                         startActivity(intent1);
                         break;

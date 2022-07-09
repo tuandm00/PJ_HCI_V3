@@ -27,7 +27,7 @@ public class Freelancer_P8 extends AppCompatActivity {
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                 switch (item.getItemId()){
                     case R.id.back:
-                        Toast.makeText(Freelancer_P8.this,"", Toast.LENGTH_SHORT);
+                        Toast.makeText(Freelancer_P8.this,"Home Page", Toast.LENGTH_SHORT);
                         Intent intent1 = new Intent(Freelancer_P8.this, FreelancerMainActivity.class);
                         startActivity(intent1);
                         break;

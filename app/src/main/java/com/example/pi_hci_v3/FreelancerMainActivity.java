@@ -48,22 +48,22 @@ public class FreelancerMainActivity extends AppCompatActivity implements OnItemC
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                 switch (item.getItemId()){
                     case R.id.back:
-                        Toast.makeText(FreelancerMainActivity.this,"", Toast.LENGTH_SHORT);
+                        Toast.makeText(FreelancerMainActivity.this,"Home Page", Toast.LENGTH_SHORT);
                         Intent intent1 = new Intent(FreelancerMainActivity.this, FreelancerMainActivity.class);
                         startActivity(intent1);
                         break;
                     case R.id.search:
-                        Toast.makeText(FreelancerMainActivity.this,"", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(FreelancerMainActivity.this,"Search Page", Toast.LENGTH_SHORT).show();
                         Intent intent2 = new Intent(FreelancerMainActivity.this, SearchActivity.class);
                         startActivity(intent2);
                         break;
                     case R.id.save:
-                        Toast.makeText(FreelancerMainActivity.this,"", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(FreelancerMainActivity.this,"Save Page", Toast.LENGTH_SHORT).show();
                         Intent intent3 = new Intent(FreelancerMainActivity.this, Freelancer_P8.class);
                         startActivity(intent3);
                         break;
                     case R.id.profile:
-                        Toast.makeText(FreelancerMainActivity.this,"", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(FreelancerMainActivity.this,"Profile Page", Toast.LENGTH_SHORT).show();
                         Intent intent4 = new Intent(FreelancerMainActivity.this, Freelancer_P7.class);
                         startActivity(intent4);
                         break;
