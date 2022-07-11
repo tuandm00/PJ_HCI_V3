@@ -34,6 +34,19 @@
             android:layout_height="match_parent"
             tools:layout_editor_absoluteX="7dp"
             tools:layout_editor_absoluteY="36dp">
+
+            <Button
+                android:id="@+id/buttonTrangchu"
+                android:layout_width="6dp"
+                android:layout_height="17dp"
+                android:layout_marginStart="405dp"
+                android:layout_marginBottom="39dp"
+                android:backgroundTint="@color/white"
+                android:text=""
+                app:layout_constraintBottom_toTopOf="@+id/textView33"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
             <TextView
                 android:id="@+id/textView33"
                 android:layout_width="match_parent"
@@ -117,7 +130,7 @@
                 android:layout_marginTop="56dp"
                 android:layout_marginStart="8dp"
                 android:layout_marginEnd="8dp"
-                android:text="Cần liên hệ trực tiếp với Freelancer này?  Bạn sẽ nhận số điện thoại và email của freelancer ngay bây giờ."
+                android:text="Cần liên hệ trực tiếp với Freelancer này?  Bạn sẽ nhận số điện thoại và email của freelancer ngay bây giờ. "
                 android:textAlignment="center"
                 android:textColor="@color/black"
                 android:textSize="15sp"
@@ -126,29 +139,19 @@
 
             <TextView
                 android:id="@+id/buttonLienhengay"
-                android:layout_width="258dp"
-                android:layout_height="58dp"
+                android:layout_width="303dp"
+                android:layout_height="87dp"
                 android:layout_marginTop="36dp"
                 android:background="@drawable/buttom_change_noclor"
                 android:gravity="center"
                 android:text="Đã gửi Hãy kiểm tra Email"
+                android:textStyle="bold"
                 android:textSize="18sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.496"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView36" />
 
-            <Button
-                android:id="@+id/buttonTrangchu"
-                android:layout_width="150dp"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="40dp"
-                android:layout_marginEnd="128dp"
-                android:background="@drawable/button_change"
-                android:text="Trang chủ"
-                android:textSize="18sp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/buttonLienhengay" />
         </androidx.constraintlayout.widget.ConstraintLayout>
     </LinearLayout>
 
@@ -164,7 +167,6 @@
         app:itemIconSize="30sp"
         app:itemIconTint="@drawable/item_active"
         app:itemTextColor="@drawable/item_active"
-        app:menu="@menu/menu_item_2">
-    </com.google.android.material.bottomnavigation.BottomNavigationView>
+        app:menu="@menu/menu_item_2"></com.google.android.material.bottomnavigation.BottomNavigationView>
 
 </RelativeLayout>

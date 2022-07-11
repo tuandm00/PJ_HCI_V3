@@ -17,44 +17,15 @@
         app:srcCompat="@drawable/logo"
         tools:ignore="MissingConstraints" />
 
-    <TextView
-        android:id="@+id/textViewFJ"
-        android:layout_width="230dp"
-        android:layout_height="78dp"
-        android:layout_marginStart="10dp"
-        android:text="Công Việc Freelance"
-        android:textColor="#FF9800"
-        android:textSize="30sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.644"
-        app:layout_constraintStart_toEndOf="@+id/imageView2"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.029" />
-
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="48dp"
-        android:layout_height="37dp"
-        app:layout_constraintBottom_toBottomOf="@+id/textViewFJ"
-        app:layout_constraintEnd_toEndOf="@+id/textViewFJ"
-        app:layout_constraintHorizontal_bias="0.785"
-        app:layout_constraintStart_toStartOf="@+id/textViewFJ"
-        app:layout_constraintTop_toTopOf="@+id/textViewFJ"
-        app:layout_constraintVertical_bias="0.707"
-        app:srcCompat="@drawable/logo2"
-        tools:ignore="MissingConstraints" />
-
     <ImageView
         android:id="@+id/imgInfo"
         android:layout_width="104dp"
         android:layout_height="28dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="40dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.907"
+        app:layout_constraintHorizontal_bias="0.918"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewFJ"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewBack"
         app:srcCompat="@drawable/login" />
 
     <TextView
@@ -67,19 +38,20 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/imgInfo"
         app:layout_constraintEnd_toEndOf="@+id/imgInfo"
-        app:layout_constraintHorizontal_bias="0.838"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="@+id/imgInfo"
-        app:layout_constraintTop_toTopOf="@+id/imgInfo" />
+        app:layout_constraintTop_toTopOf="@+id/imgInfo"
+        app:layout_constraintVertical_bias="1.0" />
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="175dp"
-        android:layout_height="31dp"
+        android:layout_width="361dp"
+        android:layout_height="54dp"
         android:layout_marginTop="164dp"
         android:text="Tìm Theo Yêu Cầu"
         android:textAlignment="center"
         android:textColor="#FF9800"
-        android:textSize="20sp"
+        android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -135,10 +107,23 @@
         android:id="@+id/imageViewBack"
         android:layout_width="56dp"
         android:layout_height="38dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="4dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.918"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/back" />
+
+    <TextView
+        android:id="@+id/textViewFJ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="856dp"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView2"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

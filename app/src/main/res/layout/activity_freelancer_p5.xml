@@ -36,6 +36,17 @@
             tools:layout_editor_absoluteX="7dp"
             tools:layout_editor_absoluteY="36dp">
 
+            <Button
+                android:id="@+id/buttonTrangchu"
+                android:layout_width="6dp"
+                android:layout_height="17dp"
+                android:layout_marginBottom="39dp"
+                android:backgroundTint="@color/white"
+                android:text=""
+                app:layout_constraintBottom_toTopOf="@+id/textView33"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
             <TextView
                 android:id="@+id/textView33"
                 android:layout_width="match_parent"
@@ -129,26 +140,15 @@
                 android:id="@+id/buttonLienhengay"
                 android:layout_width="150dp"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="64dp"
+                android:layout_marginTop="84dp"
                 android:background="@drawable/button_change"
                 android:text="Liên hệ ngay"
                 android:textSize="18sp"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.13"
+                app:layout_constraintHorizontal_bias="0.498"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView36" />
 
-            <Button
-                android:id="@+id/buttonTrangchu"
-                android:layout_width="150dp"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="64dp"
-                android:layout_marginEnd="28dp"
-                android:background="@drawable/button_change"
-                android:text="Trang chủ"
-                android:textSize="18sp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView36" />
         </androidx.constraintlayout.widget.ConstraintLayout>
     </LinearLayout>
 

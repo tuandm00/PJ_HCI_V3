@@ -48,22 +48,22 @@ public class Freelancer_P5 extends AppCompatActivity {
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                 switch (item.getItemId()){
                     case R.id.back:
-                        Toast.makeText(Freelancer_P5.this,"", Toast.LENGTH_SHORT);
+                        Toast.makeText(Freelancer_P5.this,"Trang Chủ", Toast.LENGTH_SHORT);
                         Intent intent1 = new Intent(Freelancer_P5.this, FreelancerMainActivity.class);
                         startActivity(intent1);
                         break;
                     case R.id.search:
-                        Toast.makeText(Freelancer_P5.this,"Search Page", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(Freelancer_P5.this,"Tìm Kiếm", Toast.LENGTH_SHORT).show();
                         Intent intent2 = new Intent(Freelancer_P5.this, SearchActivity.class);
                         startActivity(intent2);
                         break;
                     case R.id.save:
-                        Toast.makeText(Freelancer_P5.this,"Save Page", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(Freelancer_P5.this,"Trang Lưu", Toast.LENGTH_SHORT).show();
                         Intent intent3 = new Intent(Freelancer_P5.this, Freelancer_P8.class);
                         startActivity(intent3);
                         break;
                     case R.id.profile:
-                        Toast.makeText(Freelancer_P5.this,"Profile Page", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(Freelancer_P5.this,"Trang Cá Nhân", Toast.LENGTH_SHORT).show();
                         Intent intent4 = new Intent(Freelancer_P5.this, Freelancer_P7.class);
                         startActivity(intent4);
                         break;

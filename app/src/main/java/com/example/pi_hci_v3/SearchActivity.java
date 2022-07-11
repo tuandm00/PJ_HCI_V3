@@ -73,7 +73,7 @@ public class SearchActivity extends AppCompatActivity implements AdapterView.OnI
         txtLogo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent2 = new Intent(SearchActivity.this, Freelancer_P1.class);
+                Intent intent2 = new Intent(SearchActivity.this, FreelancerMainActivity.class);
                 startActivity(intent2);
             }
         });
@@ -82,7 +82,7 @@ public class SearchActivity extends AppCompatActivity implements AdapterView.OnI
         imgBack.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(SearchActivity.this, Freelancer_P1.class);
+                Intent intent = new Intent(SearchActivity.this, FreelancerMainActivity.class);
                 startActivity(intent);
             }
         });
