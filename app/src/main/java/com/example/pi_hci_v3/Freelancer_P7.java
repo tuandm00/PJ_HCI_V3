@@ -16,6 +16,7 @@ import com.google.android.material.navigation.NavigationBarView;
 
 public class Freelancer_P7 extends AppCompatActivity {
     Button btnTrangchu;
+    ImageView imgLogout;
     BottomNavigationView nav;
 
     @Override
@@ -24,10 +25,20 @@ public class Freelancer_P7 extends AppCompatActivity {
         setContentView(R.layout.activity_freelancer_p7);
 
         btnTrangchu = (Button) findViewById(R.id.buttonTrangchu);
+        imgLogout = (ImageView) findViewById(R.id.buttonLogout);
+
         btnTrangchu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(Freelancer_P7.this, FreelancerMainActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        imgLogout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Freelancer_P7.this, Login_Page.class);
                 startActivity(intent);
             }
         });
