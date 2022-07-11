@@ -2,6 +2,7 @@ package com.example.pi_hci_v3;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -9,8 +10,14 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.Spinner;
 import android.widget.TextView;
+import android.widget.Toast;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.google.android.material.bottomnavigation.BottomNavigationView;
+import com.google.android.material.navigation.NavigationBarView;
+
 
 public class SearchActivity extends AppCompatActivity implements AdapterView.OnItemSelectedListener{
 
@@ -19,8 +26,7 @@ public class SearchActivity extends AppCompatActivity implements AdapterView.OnI
     private static final String[] paths2 = {"Chọn Lĩnh Vực", "IT", "Thiết kế", "Kinh tế"};
     private static final String[] paths3 = {"Địa Điểm", "Hà Nội", "TPHCM", "Thanh Hóa"};
     private Button btnXN; //nút xác nhận
-    private ImageView imgBack, imgLogo; //bấm cái icon info
-    private TextView txtLogo; //bấm vào chữ Freelancer
+    BottomNavigationView nav;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -57,33 +63,34 @@ public class SearchActivity extends AppCompatActivity implements AdapterView.OnI
             }
         });
 
-        //bấm icon info user
-        imgLogo = (ImageView) findViewById(R.id.imgInfo);
-        imgLogo.setOnClickListener(new View.OnClickListener() {
+        //        Menu
+        nav = findViewById(R.id.nav_bar);
+        nav.setOnItemSelectedListener(new NavigationBarView.OnItemSelectedListener() {
             @Override
-            public void onClick(View v) {
-                Intent intent1 = new Intent(SearchActivity.this, FreelancerMainActivity.class);
-                startActivity(intent1);
-            }
-        });
-
-
-        //bấm vào logo để quay về trang chủ
-        txtLogo = (TextView) findViewById(R.id.textViewFJ);
-        txtLogo.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent2 = new Intent(SearchActivity.this, FreelancerMainActivity.class);
-                startActivity(intent2);
-            }
-        });
-
-        imgBack = (ImageView) findViewById(R.id.imageViewBack);
-        imgBack.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(SearchActivity.this, FreelancerMainActivity.class);
-                startActivity(intent);
+            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+                switch (item.getItemId()){
+                    case R.id.back:
+                        Toast.makeText(SearchActivity.this,"Home Page", Toast.LENGTH_SHORT);
+                        Intent intent1 = new Intent(SearchActivity.this, FreelancerMainActivity.class);
+                        startActivity(intent1);
+                        break;
+                    case R.id.search:
+                        Toast.makeText(SearchActivity.this,"Search Page", Toast.LENGTH_SHORT).show();
+                        Intent intent2 = new Intent(SearchActivity.this, SearchActivity.class);
+                        startActivity(intent2);
+                        break;
+                    case R.id.save:
+                        Toast.makeText(SearchActivity.this,"Save Page", Toast.LENGTH_SHORT).show();
+                        Intent intent3 = new Intent(SearchActivity.this, Freelancer_P8.class);
+                        startActivity(intent3);
+                        break;
+                    case R.id.profile:
+                        Toast.makeText(SearchActivity.this,"Profile Page", Toast.LENGTH_SHORT).show();
+                        Intent intent4 = new Intent(SearchActivity.this, Freelancer_P7.class);
+                        startActivity(intent4);
+                        break;
+                }
+                return true;
             }
         });
     }

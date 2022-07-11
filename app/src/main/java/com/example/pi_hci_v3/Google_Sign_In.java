@@ -34,7 +34,7 @@ public class Google_Sign_In extends AppCompatActivity {
         account1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent account1Intent = new Intent(Google_Sign_In.this, Home_Page.class);
+                Intent account1Intent = new Intent(Google_Sign_In.this, FreelancerMainActivity.class);
                 startActivity(account1Intent);
             }
         });
@@ -43,7 +43,7 @@ public class Google_Sign_In extends AppCompatActivity {
         account2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent account2Intent = new Intent(Google_Sign_In.this, Home_Page.class);
+                Intent account2Intent = new Intent(Google_Sign_In.this, FreelancerMainActivity.class);
                 startActivity(account2Intent);
             }
         });
