@@ -15,7 +15,7 @@
         android:layout_centerVertical="true"
         android:layout_marginTop="0dp"
         android:background="@drawable/top_nav"
-        android:text="Công Việc Đã Lưu"
+        android:text="Công Việc Đã Lưu &amp; Apply"
         android:textAlignment="center"
         android:textColor="#0636E6"
         android:textSize="30sp"
@@ -26,14 +26,47 @@
     <!--Menu bar-->
 
     <ImageView
-        android:id="@+id/imageView25"
-        android:layout_width="match_parent"
+        android:id="@+id/imageView17"
+        android:layout_width="379dp"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/textView2"
+        android:layout_below="@+id/textView54"
         android:layout_alignParentStart="true"
-        android:layout_marginStart="0dp"
-        android:layout_marginTop="8dp"
-        app:srcCompat="@drawable/img_14" />
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginBottom="462dp"
+        app:srcCompat="@drawable/job_apply" />
+
+    <TextView
+        android:id="@+id/textView54"
+        android:layout_width="313dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="89dp"
+        android:text="Các Công Việc Đã Apply"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView55"
+        android:layout_width="324dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="323dp"
+        android:layout_marginEnd="80dp"
+        android:text="Các Công Việc Đã Lưu"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/nav_bar"
@@ -47,5 +80,18 @@
         app:menu="@menu/menu_item_2">
 
     </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+    <ImageView
+        android:id="@+id/imageView23"
+        android:layout_width="438dp"
+        android:layout_height="313dp"
+        android:layout_below="@+id/textView55"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginBottom="202dp"
+        app:srcCompat="@drawable/saved_job" />
+
 
 </RelativeLayout>
