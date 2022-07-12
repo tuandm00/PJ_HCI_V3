@@ -8,19 +8,23 @@
     tools:context=".MainActivity">
 
 <!--Tieu de-->
+
+    <!--    Body-->
+
     <TextView
         android:id="@+id/textView2"
         android:layout_width="242dp"
         android:layout_height="39dp"
-        android:text="Công Việc Freelance"
-        android:layout_marginTop="10dp"
         android:layout_alignParentTop="true"
-        android:layout_centerInParent="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="36dp"
+        android:text="Công Việc Freelance"
         android:textColor="#0636E6"
         android:textSize="25sp"
-        android:textStyle="bold"/>
+        android:textStyle="bold" />
 
-<!--    Body-->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -36,20 +40,21 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:background="#CCF97700">
+
             <TextView
                 android:id="@+id/textView3"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="70dp"
+                android:layout_height="match_parent"
                 android:layout_gravity="left"
+                android:layout_marginLeft="70dp"
                 android:text="TÊN"
                 android:textColor="@color/white"
                 android:textSize="20sp" />
 
             <TextView
                 android:id="@+id/textView4"
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
+                android:layout_width="239dp"
+                android:layout_height="match_parent"
                 android:layout_marginRight="60dp"
                 android:gravity="right"
                 android:text="THÔNG TIN"
