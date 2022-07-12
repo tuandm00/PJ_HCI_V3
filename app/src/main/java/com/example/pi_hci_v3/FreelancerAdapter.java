@@ -26,7 +26,7 @@ public class FreelancerAdapter extends RecyclerView.Adapter<FreelancerAdapter.Vi
         Context context = parent.getContext();
         LayoutInflater layoutInflater = LayoutInflater.from(context);
 
-        View view = layoutInflater.inflate(R.layout.info_freelancer, parent, false);
+        View view = layoutInflater.inflate(R.layout.formation, parent, false);
 
         ViewHolder viewHolder = new ViewHolder(view);
 
