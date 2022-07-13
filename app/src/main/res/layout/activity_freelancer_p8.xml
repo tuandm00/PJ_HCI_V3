@@ -47,7 +47,7 @@
         android:layout_marginStart="9dp"
         android:layout_marginTop="70dp"
         android:layout_marginEnd="89dp"
-        android:text="Các Công Việc Đã Apply"
+        android:text="@string/job_had_apply"
         android:textColor="@color/black"
         android:textSize="20sp"
         android:textStyle="bold" />

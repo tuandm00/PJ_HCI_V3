@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">PI_HCI_v3</string>
+    <string name="job_had_apply">Các Công Việc Đã Apply</string>
 </resources>
