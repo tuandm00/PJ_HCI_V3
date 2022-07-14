@@ -27,19 +27,24 @@
         <entry key="..\:/FPT_HCI201/Project/Group_Project/PJ_HCI_V3/PJ_HCI_V3/app/src/main/res/drawable/list_divider.xml" value="0.187" />
         <entry key="..\:/FPT_HCI201/Project/Group_Project/PJ_HCI_V3/PJ_HCI_V3/app/src/main/res/layout/activity_confirm_password_reset_page.xml" value="0.29585292860196666" />
         <entry key="..\:/FPT_HCI201/Project/Group_Project/PJ_HCI_V3/PJ_HCI_V3/app/src/main/res/layout/activity_forgot_password_page.xml" value="0.67" />
-        <entry key="..\:/FPT_HCI201/Project/Group_Project/PJ_HCI_V3/PJ_HCI_V3/app/src/main/res/layout/activity_freelancer_main.xml" value="0.536" />
+        <entry key="..\:/FPT_HCI201/Project/Group_Project/PJ_HCI_V3/PJ_HCI_V3/app/src/main/res/layout/activity_freelancer_main.xml" value="0.136" />
         <entry key="..\:/FPT_HCI201/Project/Group_Project/PJ_HCI_V3/PJ_HCI_V3/app/src/main/res/layout/activity_freelancer_p1.xml" value="0.20008550662676358" />
         <entry key="..\:/FPT_HCI201/Project/Group_Project/PJ_HCI_V3/PJ_HCI_V3/app/src/main/res/layout/activity_freelancer_p2.xml" value="0.20008550662676358" />
         <entry key="..\:/FPT_HCI201/Project/Group_Project/PJ_HCI_V3/PJ_HCI_V3/app/src/main/res/layout/activity_freelancer_p3.xml" value="0.38141809290953543" />
         <entry key="..\:/FPT_HCI201/Project/Group_Project/PJ_HCI_V3/PJ_HCI_V3/app/src/main/res/layout/activity_freelancer_p5.xml" value="0.2" />
         <entry key="..\:/FPT_HCI201/Project/Group_Project/PJ_HCI_V3/PJ_HCI_V3/app/src/main/res/layout/activity_freelancer_p6.xml" value="0.264" />
         <entry key="..\:/FPT_HCI201/Project/Group_Project/PJ_HCI_V3/PJ_HCI_V3/app/src/main/res/layout/activity_freelancer_p7.xml" value="0.3583535108958838" />
-        <entry key="..\:/FPT_HCI201/Project/Group_Project/PJ_HCI_V3/PJ_HCI_V3/app/src/main/res/layout/activity_freelancer_p8.xml" value="0.33" />
+        <entry key="..\:/FPT_HCI201/Project/Group_Project/PJ_HCI_V3/PJ_HCI_V3/app/src/main/res/layout/activity_freelancer_p8.xml" value="0.4" />
+        <entry key="..\:/FPT_HCI201/Project/Group_Project/PJ_HCI_V3/PJ_HCI_V3/app/src/main/res/layout/activity_freelancer_p9_chat.xml" value="0.2" />
         <entry key="..\:/FPT_HCI201/Project/Group_Project/PJ_HCI_V3/PJ_HCI_V3/app/src/main/res/layout/activity_google_sign_in.xml" value="0.18631006346328197" />
         <entry key="..\:/FPT_HCI201/Project/Group_Project/PJ_HCI_V3/PJ_HCI_V3/app/src/main/res/layout/activity_login_page.xml" value="0.4" />
         <entry key="..\:/FPT_HCI201/Project/Group_Project/PJ_HCI_V3/PJ_HCI_V3/app/src/main/res/layout/activity_main.xml" value="0.14407866609662248" />
         <entry key="..\:/FPT_HCI201/Project/Group_Project/PJ_HCI_V3/PJ_HCI_V3/app/src/main/res/layout/activity_search.xml" value="0.264" />
+        <entry key="..\:/FPT_HCI201/Project/Group_Project/PJ_HCI_V3/PJ_HCI_V3/app/src/main/res/layout/activity_user_message_conversation.xml" value="0.264" />
+        <entry key="..\:/FPT_HCI201/Project/Group_Project/PJ_HCI_V3/PJ_HCI_V3/app/src/main/res/layout/conversation_row.xml" value="0.6" />
+        <entry key="..\:/FPT_HCI201/Project/Group_Project/PJ_HCI_V3/PJ_HCI_V3/app/src/main/res/layout/freelancer_p9_chat.xml" value="0.19923044035912782" />
         <entry key="..\:/FPT_HCI201/Project/Group_Project/PJ_HCI_V3/PJ_HCI_V3/app/src/main/res/layout/info_freelancer.xml" value="0.8800000000000001" />
+        <entry key="..\:/FPT_HCI201/Project/Group_Project/PJ_HCI_V3/PJ_HCI_V3/app/src/main/res/layout/row_chat.xml" value="0.6" />
         <entry key="..\:/FPT_HCI201/Project/Group_Project/PJ_HCI_V3/PJ_HCI_V3/app/src/main/res/menu/menu_item.xml" value="0.20008550662676358" />
         <entry key="..\:/FPT_HCI201/Project/Group_Project/PJ_HCI_V3/PJ_HCI_V3/app/src/main/res/menu/menu_item_2.xml" value="0.20008550662676358" />
         <entry key="..\:/FPT_HCI201/Project/Group_Project/PJ_HCI_V3/PJ_HCI_V3/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2535" />
