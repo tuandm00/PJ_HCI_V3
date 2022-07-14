@@ -85,6 +85,9 @@
             android:name=".Freelancer_P1"
             android:exported="false" />
         <activity
+            android:name=".ProfileUser"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true" />
     </application>

@@ -64,7 +64,7 @@ public class FreelancerMainActivity extends AppCompatActivity implements OnItemC
                         break;
                     case R.id.profile:
                         Toast.makeText(FreelancerMainActivity.this,"Trang Cá Nhân", Toast.LENGTH_SHORT).show();
-                        Intent intent4 = new Intent(FreelancerMainActivity.this, Freelancer_P7.class);
+                        Intent intent4 = new Intent(FreelancerMainActivity.this, ProfileUser.class);
                         startActivity(intent4);
                         break;
                 }

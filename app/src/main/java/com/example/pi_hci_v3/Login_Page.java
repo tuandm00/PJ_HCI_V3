@@ -46,7 +46,7 @@ public class Login_Page extends AppCompatActivity {
                     errorMessage.setText("Username or Password cannot be empty");
                 } else {
                     // Using account Admin to Login
-                    if (txtPassword.equals("user") && txtUsername.equals("user")) {
+                    if (txtPassword.equals("hs") && txtUsername.equals("hs")) {
                         Intent loginChange = new Intent(Login_Page.this, FreelancerMainActivity.class);
                         startActivity(loginChange);
                     } else {

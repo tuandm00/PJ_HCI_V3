@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+<!--Top-->
+
+    <!--    Body-->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/top_profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="#CCF97700"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/image_profile_user"
+            android:layout_width="69dp"
+            android:layout_height="69dp"
+            android:layout_marginStart="44dp"
+            android:src="@drawable/ic_baseline_person_24"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.565"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/textViewNamePerson"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="24dp"
+            android:text="HS"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/textViewPersonBalance"
+            app:layout_constraintStart_toEndOf="@+id/image_profile_user"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/textViewPersonBalance"
+            android:layout_width="150dp"
+            android:layout_height="25dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="12dp"
+            android:layout_marginBottom="16dp"
+            android:text="Số dư tài khoản: 0 vnđ"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/image_profile_user"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+            android:id="@+id/imageView16"
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="52dp"
+            android:layout_marginTop="52dp"
+            android:background="@drawable/pointer_login"
+            app:layout_constraintStart_toStartOf="@+id/image_profile_user"
+            app:layout_constraintTop_toTopOf="@+id/image_profile_user"
+            app:srcCompat="@drawable/ic_baseline_circle_24"
+            tools:ignore="MissingConstraints" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/nav_bar"
+        android:layout_below="@+id/top_profile"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Về Tôi"
+            android:textColor="@color/black"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:textSize="25dp"
+            android:textStyle="bold"/>
+<!--        Line 1-->
+        <LinearLayout
+            android:clickable="true"
+            android:id="@+id/btnHoSoCaNhan"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:background="@drawable/line_person"
+            tools:ignore="InvalidId">
+
+            <ImageView
+                android:id="@+id/imageView24"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                app:srcCompat="@drawable/ic_baseline_person_outline_24" />
+
+            <TextView
+                android:id="@+id/textView58"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_marginLeft="10dp"
+                android:text="Hồ Sơ Cá Nhân"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"/>
+            <ImageView
+                android:id="@+id/imageView25"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="right"
+                app:srcCompat="@drawable/ic_baseline_keyboard_arrow_right_24" />
+        </LinearLayout>
+<!--        Line 2-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:background="@drawable/line_person"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:id="@+id/imageView44"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                app:srcCompat="@drawable/ic_baseline_menu_book_24" />
+
+            <TextView
+                android:id="@+id/textView45"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_marginLeft="10dp"
+                android:text="CV Cá Nhân"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"/>
+            <ImageView
+                android:id="@+id/imageView46"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="right"
+                app:srcCompat="@drawable/ic_baseline_keyboard_arrow_right_24" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Thanh Toán"
+            android:textColor="@color/black"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:textSize="25dp"
+            android:textStyle="bold"/>
+<!--        Line 3-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:background="@drawable/line_person"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:id="@+id/imageView47"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                app:srcCompat="@drawable/ic_baseline_payment_24" />
+
+            <TextView
+                android:id="@+id/textView48"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_marginLeft="10dp"
+                android:text="Tài Khoản Ngân Hàng"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"/>
+            <ImageView
+                android:id="@+id/imageView49"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="right"
+                app:srcCompat="@drawable/ic_baseline_keyboard_arrow_right_24" />
+        </LinearLayout>
+<!--        Line 4-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:background="@drawable/line_person"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:id="@+id/imageView50"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                app:srcCompat="@drawable/ic_baseline_monetization_on_24" />
+
+            <TextView
+                android:id="@+id/textView51"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_marginLeft="10dp"
+                android:text="Ví Của tôi"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"/>
+            <ImageView
+                android:id="@+id/imageView52"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="right"
+                app:srcCompat="@drawable/ic_baseline_keyboard_arrow_right_24" />
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Chung"
+            android:textColor="@color/black"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:textSize="25dp"
+            android:textStyle="bold"/>
+<!--        Line 5-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:background="@drawable/line_person"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:id="@+id/imageView53"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                app:srcCompat="@drawable/ic_baseline_history_24" />
+
+            <TextView
+                android:id="@+id/textView54"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_marginLeft="10dp"
+                android:text="Lịch Sử Giao Dịch"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"/>
+            <ImageView
+                android:id="@+id/imageView55"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="right"
+                app:srcCompat="@drawable/ic_baseline_keyboard_arrow_right_24" />
+        </LinearLayout>
+<!--        Line 6-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:background="@drawable/line_person"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:id="@+id/imageView56"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                app:srcCompat="@drawable/ic_baseline_send_24" />
+
+            <TextView
+                android:id="@+id/textView57"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_marginLeft="10dp"
+                android:text="Mời Bạn Bè"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"/>
+            <ImageView
+                android:id="@+id/imageView58"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="right"
+                app:srcCompat="@drawable/ic_baseline_keyboard_arrow_right_24" />
+        </LinearLayout>
+<!--        Line 7-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:background="@drawable/line_person"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:id="@+id/imageView59"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                app:srcCompat="@drawable/ic_baseline_logout_24" />
+
+            <TextView
+                android:id="@+id/textView60"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_marginLeft="10dp"
+                android:text="Đăng Xuất"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"/>
+            <ImageView
+                android:id="@+id/imageView61"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="right"
+                app:srcCompat="@drawable/ic_baseline_keyboard_arrow_right_24" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+<!--    Menu-->
+    <!--Menu bar-->
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/nav_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/nav_bg"
+        app:itemIconSize="40sp"
+        app:itemIconTint="@drawable/item_active"
+        app:itemTextColor="@drawable/item_active"
+        app:menu="@menu/menu_item_2" />
+</RelativeLayout>

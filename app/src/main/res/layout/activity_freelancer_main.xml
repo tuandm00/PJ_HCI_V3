@@ -80,13 +80,11 @@
         android:id="@+id/nav_bar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="2dp"
         android:background="@drawable/nav_bg"
         app:itemIconSize="40sp"
         app:itemIconTint="@drawable/item_active"
         app:itemTextColor="@drawable/item_active"
-        app:menu="@menu/menu_item" />
+        app:menu="@menu/menu_item_2" />
 
 </RelativeLayout>
