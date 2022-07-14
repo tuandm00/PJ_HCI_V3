@@ -3,44 +3,47 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.pi_hci_v3">
 
-<!--
-        To have header bar back
-        android:theme="@style/Theme.PI_HCI_v3"
--->
     <application
         android:allowBackup="true"
-        android:hardwareAccelerated="false"
-        android:largeHeap="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
+        android:hardwareAccelerated="false"
         android:icon="@mipmap/ic_launcher"
         android:label="PI_HCI_V3"
+        android:largeHeap="true"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar"
         tools:targetApi="31">
 
         <activity
-            android:name=".Login_Page"
-            android:exported="true" >
+            android:name=".FreelancerMainActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
 
         <activity
-            android:name=".FreelancerMainActivity"
-            android:exported="true" >
+            android:name=".User_Message_Conversation"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".Freelancer_P9_Chat"
+            android:exported="false" />
+
+        <activity
+            android:name=".Login_Page"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".Freelancer_P3"
             android:exported="true">
@@ -73,11 +76,9 @@
             android:exported="false" />
         <activity
             android:name=".Freelancer_P5"
-            android:exported="false" />
-        <!--        <activity-->
-<!--            android:name=".Freelancer_P3"-->
-<!--            android:exported="false" />-->
-
+            android:exported="false" /> <!-- <activity -->
+        <!-- android:name=".Freelancer_P3" -->
+        <!-- android:exported="false" /> -->
         <activity
             android:name=".Freelancer_P2"
             android:exported="false" />
@@ -94,4 +95,5 @@
             android:name=".MainActivity"
             android:exported="true" />
     </application>
+
 </manifest>

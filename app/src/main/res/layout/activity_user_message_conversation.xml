@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Freelancer_P8">
+
+    <!--body-->
+
+    <!--Menu bar-->
+
+
+    <TextView
+        android:id="@+id/textView57"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="13dp"
+        android:text="PhuongPD"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView58"
+        android:layout_width="283dp"
+        android:layout_height="26dp"
+        android:layout_alignStart="@+id/textView57"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="51dp"
+        android:layout_marginEnd="-51dp"
+        android:layout_toStartOf="@+id/imageView16"
+        android:text="HR Consultan, ABC Company"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:textStyle="italic" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="93dp"
+        android:layout_height="62dp"
+        android:layout_alignBottom="@+id/textView57"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="-40dp"
+        android:src="@drawable/avatar1" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvConversation"
+        android:layout_width="match_parent"
+        android:layout_height="684dp"
+        android:layout_above="@+id/editTextTextPersonName4"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="7dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName4"
+        android:layout_width="wrap_content"
+        android:layout_height="79dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="27dp"
+        android:layout_marginEnd="-3dp"
+        android:layout_marginBottom="21dp"
+        android:layout_toStartOf="@+id/imageView24"
+        android:backgroundTint="@color/black"
+        android:ems="10"
+        android:hint="Enter your text here"
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        android:textColorHint="#9B000000" />
+
+    <ImageView
+        android:id="@+id/imageView24"
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        android:layout_below="@+id/rvConversation"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginBottom="45dp"
+        app:srcCompat="@drawable/ic_baseline_send_24" />
+
+    <ImageView
+        android:id="@+id/imgConvBack"
+        android:layout_width="43dp"
+        android:layout_height="41dp"
+        android:layout_alignTop="@+id/textView57"
+        android:layout_alignBottom="@+id/textView57"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="-16dp"
+        app:srcCompat="@drawable/ic_baseline_arrow_back_24" />
+
+    <ImageView
+        android:id="@+id/imageView26"
+        android:layout_width="wrap_content"
+        android:layout_height="27dp"
+        android:layout_alignTop="@+id/editTextTextPersonName4"
+        android:layout_alignEnd="@+id/editTextTextPersonName4"
+        android:layout_alignBottom="@+id/editTextTextPersonName4"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="54dp"
+        android:layout_marginBottom="16dp"
+        app:srcCompat="@drawable/ic_baseline_attach_file_24" />
+
+    <ImageView
+        android:id="@+id/imageView27"
+        android:layout_width="wrap_content"
+        android:layout_height="27dp"
+        android:layout_alignTop="@+id/editTextTextPersonName4"
+        android:layout_alignEnd="@+id/editTextTextPersonName4"
+        android:layout_alignBottom="@+id/editTextTextPersonName4"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="15dp"
+        app:srcCompat="@drawable/ic_baseline_photo_camera_24" />
+</RelativeLayout>
