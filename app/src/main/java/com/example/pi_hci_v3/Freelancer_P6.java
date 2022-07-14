@@ -56,7 +56,7 @@ public class Freelancer_P6 extends AppCompatActivity {
                         break;
                     case R.id.profile:
                         Toast.makeText(Freelancer_P6.this,"Trang Cá Nhân", Toast.LENGTH_SHORT).show();
-                        Intent intent4 = new Intent(Freelancer_P6.this, Freelancer_P7.class);
+                        Intent intent4 = new Intent(Freelancer_P6.this, ProfileUser.class);
                         startActivity(intent4);
                         break;
                 }

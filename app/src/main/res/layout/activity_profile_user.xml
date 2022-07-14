@@ -141,6 +141,8 @@
         </LinearLayout>
 <!--        Line 2-->
         <LinearLayout
+            android:clickable="true"
+            android:id="@+id/btnCvCaNhan"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:orientation="horizontal"
@@ -362,6 +364,8 @@
         </LinearLayout>
 <!--        Line 7-->
         <LinearLayout
+            android:clickable="true"
+            android:id="@+id/btnDangXuat"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_marginTop="10dp"

@@ -86,7 +86,7 @@ public class SearchActivity extends AppCompatActivity implements AdapterView.OnI
                         break;
                     case R.id.profile:
                         Toast.makeText(SearchActivity.this,"Profile Page", Toast.LENGTH_SHORT).show();
-                        Intent intent4 = new Intent(SearchActivity.this, Freelancer_P7.class);
+                        Intent intent4 = new Intent(SearchActivity.this, ProfileUser.class);
                         startActivity(intent4);
                         break;
                 }
