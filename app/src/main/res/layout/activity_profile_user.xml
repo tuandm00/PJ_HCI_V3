@@ -94,7 +94,7 @@
             android:layout_height="wrap_content"
             android:text="Về Tôi"
             android:textColor="@color/black"
-            android:layout_marginStart="20dp"
+            android:layout_marginStart="25dp"
             android:layout_marginTop="10dp"
             android:layout_marginBottom="10dp"
             android:textSize="25dp"
@@ -105,6 +105,8 @@
             android:id="@+id/btnHoSoCaNhan"
             android:layout_width="match_parent"
             android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
             android:orientation="horizontal"
             android:background="@drawable/line_person"
             tools:ignore="InvalidId">
@@ -142,6 +144,8 @@
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:orientation="horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
             android:background="@drawable/line_person"
             android:layout_marginTop="10dp">
 
@@ -177,21 +181,23 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="10dp"
             android:text="Thanh Toán"
             android:textColor="@color/black"
-            android:layout_marginStart="20dp"
-            android:layout_marginTop="10dp"
             android:textSize="25dp"
-            android:textStyle="bold"/>
+            android:textStyle="bold" />
 <!--        Line 3-->
         <LinearLayout
-            android:clickable="true"
             android:id="@+id/btnTaiKhoanNganHang"
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
             android:background="@drawable/line_person"
-            android:layout_marginTop="10dp">
+            android:clickable="true"
+            android:orientation="horizontal">
 
             <ImageView
                 android:id="@+id/imageView47"
@@ -204,16 +210,18 @@
                 android:id="@+id/textView48"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:gravity="center"
                 android:layout_marginLeft="10dp"
+                android:gravity="center"
                 android:text="Tài Khoản Ngân Hàng"
+                android:textColor="@color/black"
                 android:textSize="13sp"
-                android:textStyle="bold"
-                android:textColor="@color/black"/>
+                android:textStyle="bold" />
+
             <Space
                 android:layout_width="0dp"
                 android:layout_height="0dp"
-                android:layout_weight="1"/>
+                android:layout_weight="1" />
+
             <ImageView
                 android:id="@+id/imageView49"
                 android:layout_width="wrap_content"
@@ -225,9 +233,11 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
             android:background="@drawable/line_person"
-            android:layout_marginTop="10dp">
+            android:orientation="horizontal">
 
             <ImageView
                 android:id="@+id/imageView50"
@@ -240,16 +250,18 @@
                 android:id="@+id/textView51"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:gravity="center"
                 android:layout_marginLeft="10dp"
+                android:gravity="center"
                 android:text="Ví Của tôi"
+                android:textColor="@color/black"
                 android:textSize="13sp"
-                android:textStyle="bold"
-                android:textColor="@color/black"/>
+                android:textStyle="bold" />
+
             <Space
                 android:layout_width="0dp"
                 android:layout_height="0dp"
-                android:layout_weight="1"/>
+                android:layout_weight="1" />
+
             <ImageView
                 android:id="@+id/imageView52"
                 android:layout_width="wrap_content"
@@ -262,19 +274,21 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="10dp"
             android:text="Chung"
             android:textColor="@color/black"
-            android:layout_marginStart="20dp"
-            android:layout_marginTop="10dp"
             android:textSize="25dp"
-            android:textStyle="bold"/>
+            android:textStyle="bold" />
 <!--        Line 5-->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
             android:background="@drawable/line_person"
-            android:layout_marginTop="10dp">
+            android:orientation="horizontal">
 
             <ImageView
                 android:id="@+id/imageView53"
@@ -287,16 +301,18 @@
                 android:id="@+id/textView54"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:gravity="center"
                 android:layout_marginLeft="10dp"
+                android:gravity="center"
                 android:text="Lịch Sử Giao Dịch"
+                android:textColor="@color/black"
                 android:textSize="13sp"
-                android:textStyle="bold"
-                android:textColor="@color/black"/>
+                android:textStyle="bold" />
+
             <Space
                 android:layout_width="0dp"
                 android:layout_height="0dp"
-                android:layout_weight="1"/>
+                android:layout_weight="1" />
+
             <ImageView
                 android:id="@+id/imageView55"
                 android:layout_width="wrap_content"
@@ -308,9 +324,11 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
             android:background="@drawable/line_person"
-            android:layout_marginTop="10dp">
+            android:orientation="horizontal">
 
             <ImageView
                 android:id="@+id/imageView56"
@@ -323,16 +341,18 @@
                 android:id="@+id/textView57"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:gravity="center"
                 android:layout_marginLeft="10dp"
+                android:gravity="center"
                 android:text="Mời Bạn Bè"
+                android:textColor="@color/black"
                 android:textSize="13sp"
-                android:textStyle="bold"
-                android:textColor="@color/black"/>
+                android:textStyle="bold" />
+
             <Space
                 android:layout_width="0dp"
                 android:layout_height="0dp"
-                android:layout_weight="1"/>
+                android:layout_weight="1" />
+
             <ImageView
                 android:id="@+id/imageView58"
                 android:layout_width="wrap_content"
@@ -344,9 +364,11 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
             android:background="@drawable/line_person"
-            android:layout_marginTop="10dp">
+            android:orientation="horizontal">
 
             <ImageView
                 android:id="@+id/imageView59"
@@ -359,16 +381,18 @@
                 android:id="@+id/textView60"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:gravity="center"
                 android:layout_marginLeft="10dp"
+                android:gravity="center"
                 android:text="Đăng Xuất"
+                android:textColor="@color/black"
                 android:textSize="13sp"
-                android:textStyle="bold"
-                android:textColor="@color/black"/>
+                android:textStyle="bold" />
+
             <Space
                 android:layout_width="0dp"
                 android:layout_height="0dp"
-                android:layout_weight="1"/>
+                android:layout_weight="1" />
+
             <ImageView
                 android:id="@+id/imageView61"
                 android:layout_width="wrap_content"

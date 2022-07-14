@@ -28,6 +28,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@+id/topbank"
+        android:layout_marginTop="10dp"
         android:orientation="vertical">
 
         <TextView
@@ -43,8 +44,8 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="5dp"
-            android:layout_marginRight="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
             android:background="@drawable/line_bank"
             android:orientation="horizontal"
             tools:ignore="InvalidId">
@@ -78,83 +79,83 @@
             android:id="@+id/editTextTextPersonName4"
             android:layout_width="match_parent"
             android:layout_height="40dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginLeft="5dp"
-            android:layout_marginRight="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="14dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/line_bank"
             android:ems="10"
-            android:inputType="textPersonName"
             android:hint="Số thẻ (Seri)"
+            android:inputType="textPersonName"
             android:paddingLeft="10dp"
-            android:textColorHint="#DFD5D5"
             android:textColor="@color/black"
-            android:background="@drawable/line_bank"/>
+            android:textColorHint="#DFD5D5" />
         <!--        Line 3-->
         <EditText
             android:id="@+id/editTextTextPersonName5"
             android:layout_width="match_parent"
             android:layout_height="40dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginLeft="5dp"
-            android:layout_marginRight="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="14dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/line_bank"
             android:ems="10"
-            android:inputType="textPersonName"
             android:hint="Tên Chủ Thẻ"
+            android:inputType="textPersonName"
             android:paddingLeft="10dp"
-            android:textColorHint="#DFD5D5"
             android:textColor="@color/black"
-            android:background="@drawable/line_bank"/>
+            android:textColorHint="#DFD5D5" />
         <!--        Line 4-->
         <EditText
             android:id="@+id/editTextTextPersonName6"
             android:layout_width="match_parent"
             android:layout_height="40dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginLeft="5dp"
-            android:layout_marginRight="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="14dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/line_bank"
             android:ems="10"
-            android:inputType="textPersonName"
             android:hint="CMND / CCCD / Hộ chiếu chủ thẻ"
+            android:inputType="textPersonName"
             android:paddingLeft="10dp"
-            android:textColorHint="#DFD5D5"
             android:textColor="@color/black"
-            android:background="@drawable/line_bank"/>
+            android:textColorHint="#DFD5D5" />
         <!--        Line 5-->
         <EditText
             android:id="@+id/editTextTextPersonName7"
             android:layout_width="match_parent"
             android:layout_height="40dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginLeft="5dp"
-            android:layout_marginRight="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="14dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/line_bank"
             android:ems="10"
-            android:inputType="textPersonName"
             android:hint="Mật khẩu thẻ (4 - 6 số)"
+            android:inputType="textPersonName"
             android:paddingLeft="10dp"
-            android:textColorHint="#DFD5D5"
             android:textColor="@color/black"
-            android:background="@drawable/line_bank"/>
+            android:textColorHint="#DFD5D5" />
 
         <TextView
             android:id="@+id/textView61"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
             android:layout_marginTop="5dp"
-            android:layout_marginLeft="10dp"
             android:text="Là mật khẩu dùng để rút tiền tại cây ATM của thẻ"
-            android:textColor="@color/black"/>
+            android:textColor="@color/black" />
 
         <Button
             android:id="@+id/buttonLienKet"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginRight="35dp"
+            android:background="@drawable/line_bank"
+            android:backgroundTint="#CCF97700"
             android:text="LIÊN KẾT THẺ ATM"
             android:textColor="@color/white"
-            android:textSize="18dp"
-            android:background="@drawable/line_bank"
-            android:backgroundTint="#CCF97700"/>
+            android:textSize="18dp" />
 
 
     </LinearLayout>
