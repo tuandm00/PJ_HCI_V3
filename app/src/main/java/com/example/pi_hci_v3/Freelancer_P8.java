@@ -16,12 +16,23 @@ import com.google.android.material.navigation.NavigationBarView;
 
 public class Freelancer_P8 extends AppCompatActivity {
     BottomNavigationView nav;
+    ImageView   troChuyen;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_freelancer_p8);
 //        Menu
         nav = findViewById(R.id.nav_bar);
+        troChuyen = (ImageView) findViewById(R.id.imgTroChuyen);
+
+        troChuyen.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Freelancer_P8.this, Freelancer_P9_Chat.class);
+                startActivity(intent);
+            }
+        });
 
 //        Intent intentResult =getIntent();
 //        String saveResult =intentResult.getStringExtra("SaveSuccess");
