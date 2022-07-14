@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/MBBank"
+        android:title="MBBank"/>
+    <item android:id="@+id/ViettienBank"
+        android:title="VietTien Bank"/>
+    <item android:id="@+id/TMCPsaigon"
+        android:title="TMCP Sài Gòn"/>
+    <item android:id="@+id/TMCPbaoviet"
+        android:title="BaoViet Bank"/>
+    <item android:id="@+id/techcombank"
+        android:title="Techcombank"/>
+    <item android:id="@+id/VPBank"
+        android:title="VB Bank"/>
+    <item android:id="@+id/AChauBank"
+        android:title="TMCP Á Châu"/>
+    <item android:id="@+id/TPBank"
+        android:title="Tiên Phong Bank"/>
+</menu>
