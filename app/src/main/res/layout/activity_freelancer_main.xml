@@ -13,13 +13,10 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="242dp"
+        android:layout_width="match_parent"
         android:layout_height="39dp"
+        android:gravity="center"
         android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_centerVertical="true"
-        android:layout_marginTop="10dp"
-        android:layout_marginEnd="36dp"
         android:text="Công Việc Freelance"
         android:textColor="#0636E6"
         android:textSize="25sp"

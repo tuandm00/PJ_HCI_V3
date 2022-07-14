@@ -54,7 +54,7 @@
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="157dp"
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginTop="0dp"
             android:background="@drawable/item_recycle"
