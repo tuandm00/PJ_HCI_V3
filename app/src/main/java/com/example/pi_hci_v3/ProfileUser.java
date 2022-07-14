@@ -24,6 +24,9 @@ public class ProfileUser extends AppCompatActivity {
         LinearLayout hosocanhan = (LinearLayout) findViewById(R.id.btnHoSoCaNhan);
         LinearLayout cvcanhan = (LinearLayout) findViewById(R.id.btnCvCaNhan);
         LinearLayout taikhoannganhang = (LinearLayout) findViewById(R.id.btnTaiKhoanNganHang);
+        LinearLayout vicuatoi = (LinearLayout) findViewById(R.id.btnViCuaToi);
+        LinearLayout lichsugiaodich = (LinearLayout) findViewById(R.id.btnLichSuGiaoDich);
+        LinearLayout moibanbe = (LinearLayout) findViewById(R.id.btnMoiBanBe);
         LinearLayout dangxuat = (LinearLayout) findViewById(R.id.btnDangXuat);
 
         hosocanhan.setOnClickListener(new View.OnClickListener() {
@@ -46,6 +49,26 @@ public class ProfileUser extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(ProfileUser.this, LienKetNganHang.class);
                 startActivity(intent);
+            }
+        });
+        vicuatoi.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(ProfileUser.this, MyWallet.class);
+                startActivity(intent);
+            }
+        });
+        lichsugiaodich.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(ProfileUser.this, Transaction_History.class);
+                startActivity(intent);
+            }
+        });
+        moibanbe.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(ProfileUser.this,"Đã mời bạn bè", Toast.LENGTH_SHORT).show();
             }
         });
 

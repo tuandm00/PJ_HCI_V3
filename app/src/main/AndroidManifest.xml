@@ -95,6 +95,12 @@
             android:name=".cv_user"
             android:exported="false" />
         <activity
+            android:name=".MyWallet"
+            android:exported="false" />
+        <activity
+            android:name=".Transaction_History"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true" />
     </application>

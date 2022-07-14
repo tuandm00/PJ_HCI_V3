@@ -9,7 +9,7 @@
 
 <!--Top-->
 
-    <!--    Body-->
+
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/top_profile"
         android:layout_width="match_parent"
@@ -82,7 +82,7 @@
             app:srcCompat="@drawable/ic_baseline_circle_24"
             tools:ignore="MissingConstraints" />
     </androidx.constraintlayout.widget.ConstraintLayout>
-
+    <!--    Body-->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -233,6 +233,8 @@
         </LinearLayout>
 <!--        Line 4-->
         <LinearLayout
+            android:clickable="true"
+            android:id="@+id/btnViCuaToi"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_marginTop="10dp"
@@ -284,6 +286,8 @@
             android:textStyle="bold" />
 <!--        Line 5-->
         <LinearLayout
+            android:clickable="true"
+            android:id="@+id/btnLichSuGiaoDich"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_marginTop="10dp"
@@ -324,6 +328,8 @@
         </LinearLayout>
 <!--        Line 6-->
         <LinearLayout
+            android:clickable="true"
+            android:id="@+id/btnMoiBanBe"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_marginTop="10dp"

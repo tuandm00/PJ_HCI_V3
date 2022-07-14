@@ -40,20 +40,20 @@
 
             <TextView
                 android:id="@+id/textView3"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_gravity="left"
-                android:layout_marginLeft="70dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="@integer/material_motion_duration_medium_1"
+                android:textAlignment="center"
                 android:text="TÊN"
                 android:textColor="@color/white"
                 android:textSize="20sp" />
 
             <TextView
                 android:id="@+id/textView4"
-                android:layout_width="239dp"
-                android:layout_height="match_parent"
-                android:layout_marginRight="60dp"
-                android:gravity="right"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="@integer/material_motion_duration_medium_1"
+                android:textAlignment="center"
                 android:text="THÔNG TIN"
                 android:textColor="@color/white"
                 android:textSize="20sp" />

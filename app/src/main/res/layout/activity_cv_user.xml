@@ -27,6 +27,7 @@
             android:layout_height="match_parent"
             android:layout_below="@id/textView37"
             android:layout_above="@id/nav_bar"
+            android:layout_marginBottom="5dp"
             android:orientation="vertical">
             <ScrollView
                 android:layout_width="match_parent"
