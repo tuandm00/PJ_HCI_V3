@@ -40,11 +40,11 @@ public class Freelancer_P9_Chat extends AppCompatActivity {
 
         userList = new ArrayList<>();
 
-        userList.add(new User_Chat("Duy Phương", "Đây là những gì mà chúng ta bàn", "14:59", R.drawable.avatar1));
-        userList.add(new User_Chat("Thomas Edith", "Đây là  chúng ta bàn", "14:59", R.drawable.avatar3));
-        userList.add(new User_Chat("Minh Tuấn", "Đây là  mà chúng ta bàn", "14:59", R.drawable.avatar4));
-        userList.add(new User_Chat("Tony Trần", "Đây là  gì mà chúng ta bàn", "14:59", R.drawable.avatar5));
-        userList.add(new User_Chat("Hùng Bảo", "Đây là  gì mà chúng ta bàn", "14:59", R.drawable.avatar6));
+        userList.add(new User_Chat("Duy Phương", "Chuyển rồi nha, có gì kiểm tra tài khoản", "16:50", R.drawable.avatar1));
+        userList.add(new User_Chat("Thomas Edith", "Link để xem bài Freelance mà bạn ứng tuyển", "13:50", R.drawable.avatar3));
+        userList.add(new User_Chat("Minh Tuấn", "Làm xong task chưa", "13:00", R.drawable.avatar4));
+        userList.add(new User_Chat("Tony Trần", "Link để xem bài Freelance mà bạn ứng tuyển", "06:50", R.drawable.avatar5));
+        userList.add(new User_Chat("Hùng Bảo", "Ủa ?", "00:01", R.drawable.avatar6));
 
         User_Chat_Adapter adapter = new User_Chat_Adapter(userList);
         rvUser.setAdapter(adapter);
