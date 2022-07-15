@@ -22,6 +22,7 @@
         <entry key="..\:/Code4AndroiStudio/PI_HCI_v3/app/src/main/res/layout/activity_menu.xml" value="0.1" />
         <entry key="..\:/Code4AndroiStudio/PI_HCI_v3/app/src/main/res/layout/activity_search.xml" value="0.11684782608695653" />
         <entry key="..\:/Code4AndroiStudio/PI_HCI_v3/app/src/main/res/layout/info_freelancer.xml" value="0.11684782608695653" />
+        <entry key="..\:/FPT_HCI201/Project/Group_Project/PJ_HCI_V3/PJ_HCI_V3/app/src/main/res/drawable/ic_baseline_arrow_circle_down_24.xml" value="0.2535" />
         <entry key="..\:/FPT_HCI201/Project/Group_Project/PJ_HCI_V3/PJ_HCI_V3/app/src/main/res/drawable/ic_baseline_mail_outline_24.xml" value="0.2045" />
         <entry key="..\:/FPT_HCI201/Project/Group_Project/PJ_HCI_V3/PJ_HCI_V3/app/src/main/res/drawable/item_recycle.xml" value="0.2535" />
         <entry key="..\:/FPT_HCI201/Project/Group_Project/PJ_HCI_V3/PJ_HCI_V3/app/src/main/res/drawable/list_divider.xml" value="0.187" />
@@ -42,14 +43,16 @@
         <entry key="..\:/FPT_HCI201/Project/Group_Project/PJ_HCI_V3/PJ_HCI_V3/app/src/main/res/layout/activity_mywallet.xml" value="0.15049864007252947" />
         <entry key="..\:/FPT_HCI201/Project/Group_Project/PJ_HCI_V3/PJ_HCI_V3/app/src/main/res/layout/activity_profile_user.xml" value="0.6" />
         <entry key="..\:/FPT_HCI201/Project/Group_Project/PJ_HCI_V3/PJ_HCI_V3/app/src/main/res/layout/activity_search.xml" value="0.264" />
-        <entry key="..\:/FPT_HCI201/Project/Group_Project/PJ_HCI_V3/PJ_HCI_V3/app/src/main/res/layout/activity_user_message_conversation.xml" value="0.845565749235474" />
+        <entry key="..\:/FPT_HCI201/Project/Group_Project/PJ_HCI_V3/PJ_HCI_V3/app/src/main/res/layout/activity_user_message_conversation.xml" value="0.8800000000000001" />
         <entry key="..\:/FPT_HCI201/Project/Group_Project/PJ_HCI_V3/PJ_HCI_V3/app/src/main/res/layout/conversation_row.xml" value="0.6" />
+        <entry key="..\:/FPT_HCI201/Project/Group_Project/PJ_HCI_V3/PJ_HCI_V3/app/src/main/res/layout/dam_phan_tien.xml" value="1.0" />
         <entry key="..\:/FPT_HCI201/Project/Group_Project/PJ_HCI_V3/PJ_HCI_V3/app/src/main/res/layout/freelancer_p9_chat.xml" value="0.19923044035912782" />
         <entry key="..\:/FPT_HCI201/Project/Group_Project/PJ_HCI_V3/PJ_HCI_V3/app/src/main/res/layout/info_freelancer.xml" value="0.8800000000000001" />
-        <entry key="..\:/FPT_HCI201/Project/Group_Project/PJ_HCI_V3/PJ_HCI_V3/app/src/main/res/layout/row_chat.xml" value="0.6" />
+        <entry key="..\:/FPT_HCI201/Project/Group_Project/PJ_HCI_V3/PJ_HCI_V3/app/src/main/res/layout/row_chat.xml" value="0.264" />
         <entry key="..\:/FPT_HCI201/Project/Group_Project/PJ_HCI_V3/PJ_HCI_V3/app/src/main/res/menu/menu_chat.xml" value="0.19623770842240273" />
         <entry key="..\:/FPT_HCI201/Project/Group_Project/PJ_HCI_V3/PJ_HCI_V3/app/src/main/res/menu/menu_item.xml" value="0.20008550662676358" />
         <entry key="..\:/FPT_HCI201/Project/Group_Project/PJ_HCI_V3/PJ_HCI_V3/app/src/main/res/menu/menu_item_2.xml" value="0.20008550662676358" />
+        <entry key="..\:/FPT_HCI201/Project/Group_Project/PJ_HCI_V3/PJ_HCI_V3/app/src/main/res/menu/menu_tien_dam_phan.xml" value="0.13852073535699017" />
         <entry key="..\:/FPT_HCI201/Project/Group_Project/PJ_HCI_V3/PJ_HCI_V3/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2535" />
         <entry key="..\:/HCI-HungLD/PJ_HCI_V3/app/src/main/res/drawable/buttom_change_noclor.xml" value="0.2635" />
         <entry key="..\:/HCI-HungLD/PJ_HCI_V3/app/src/main/res/drawable/button_change.xml" value="0.2635" />

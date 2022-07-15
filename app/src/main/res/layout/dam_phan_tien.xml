@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/txtTesting2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Số Tiền "
+        android:textColor="@color/black"
+        android:textSize="35sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName8"
+        android:layout_width="123dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="@color/black"
+        android:ems="10"
+        android:hint="Nhập Số Tiền "
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        android:textColorHint="#A6000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtTesting2" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="37dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="5dp"
+        app:layout_constraintBottom_toBottomOf="@+id/editTextTextPersonName8"
+        app:layout_constraintStart_toEndOf="@+id/editTextTextPersonName8"
+        app:layout_constraintTop_toTopOf="@+id/editTextTextPersonName8"
+        app:srcCompat="@drawable/ic_baseline_arrow_circle_up_24" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="43dp"
+        android:layout_height="35dp"
+        android:layout_marginEnd="5dp"
+        app:layout_constraintBottom_toBottomOf="@+id/editTextTextPersonName8"
+        app:layout_constraintEnd_toStartOf="@+id/editTextTextPersonName8"
+        app:layout_constraintTop_toTopOf="@+id/editTextTextPersonName8"
+        app:srcCompat="@drawable/ic_baseline_arrow_circle_down_24" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/purple_200"
+        android:text="Đồng Ý"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.678"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName8" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Hủy"
+        app:layout_constraintEnd_toStartOf="@+id/button"
+        app:layout_constraintHorizontal_bias="0.862"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName8" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

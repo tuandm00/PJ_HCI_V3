@@ -2,16 +2,27 @@ package com.example.pi_hci_v3;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import android.graphics.Color;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.text.Html;
+import android.text.SpannableString;
+import android.text.SpannableStringBuilder;
+import android.text.style.ForegroundColorSpan;
 import android.view.ContextMenu;
+import android.view.Gravity;
+import android.view.LayoutInflater;
 import android.view.MenuItem;
+import android.view.MotionEvent;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.PopupWindow;
 import android.widget.RelativeLayout;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.material.navigation.NavigationBarView;
@@ -20,7 +31,9 @@ import java.util.ArrayList;
 
 public class User_Message_Conversation extends AppCompatActivity {
     ArrayList<User_Conversation>  userList;
-    ImageView   imgGoBack, imgCompanyAvatar;
+    ImageView   imgGoBack, imgCompanyAvatar, imgMoneySend;
+    private  PopupWindow popupWindow;
+    private LayoutInflater layoutInflater;
     RelativeLayout  rlUI;
 
 
@@ -41,13 +54,35 @@ public class User_Message_Conversation extends AppCompatActivity {
         imgGoBack = (ImageView) findViewById(R.id.imgConvBack);
         imgCompanyAvatar = (ImageView) findViewById(R.id.imgCompanyChatAvatar);
         rlUI = (RelativeLayout) findViewById(R.id.rlUI);
+        imgMoneySend = (ImageView) findViewById(R.id.imgMoneySend);
+
+        imgMoneySend.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                layoutInflater = (LayoutInflater) getSystemService(LAYOUT_INFLATER_SERVICE);
+                ViewGroup container = (ViewGroup) layoutInflater.inflate(R.layout.dam_phan_tien, null);
+
+                popupWindow = new PopupWindow(container,800,500,true);
+                popupWindow.showAtLocation(rlUI, Gravity.CENTER, 0,0);
+
+
+                container.setOnTouchListener(new View.OnTouchListener() {
+                    @Override
+                    public boolean onTouch(View view, MotionEvent motionEvent) {
+                        popupWindow.dismiss();
+                        return true;
+                    }
+                });
+            }
+        });
 
         // Khai báo Context Menu, gắn nó vô Avatar
         registerForContextMenu(imgCompanyAvatar);
-
         userList = new ArrayList<>();
 
-        userList.add(new User_Conversation("This is quite OK", "Ok yes I am trying it", "14:50", "15:03", R.drawable.avatar1, R.drawable.avatar2));
+        String openingChat = "Link để xem bài Freelance mà bạn ứng tuyển";
+
+        userList.add(new User_Conversation(openingChat, "Ok yes I am trying it", "14:50", "15:03", R.drawable.avatar1, R.drawable.avatar2));
         userList.add(new User_Conversation("Alright! So about the payment", "Yep, let's here about it", "15:50", "16:03", R.drawable.avatar1, R.drawable.avatar2));
         userList.add(new User_Conversation("Alright! So about the payment", "Yep, let's here about it", "15:50", "16:03", R.drawable.avatar1, R.drawable.avatar2));
         userList.add(new User_Conversation("Alright! So about the payment", "Yep, let's here about it. This is just a text about having an O clock and today is about in the lamian and", "15:50", "16:03", R.drawable.avatar1, R.drawable.avatar2));

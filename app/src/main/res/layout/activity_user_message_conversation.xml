@@ -162,7 +162,7 @@
         app:srcCompat="@drawable/ic_baseline_video_call_24" />
 
     <ImageView
-        android:id="@+id/imageView15"
+        android:id="@+id/imgMoneySend"
         android:layout_width="wrap_content"
         android:layout_height="27dp"
         android:layout_alignTop="@+id/editTextTextPersonName4"
@@ -172,4 +172,5 @@
         android:layout_marginBottom="15dp"
         android:layout_toStartOf="@+id/imageView24"
         app:srcCompat="@drawable/ic_baseline_monetization_on_24" />
+
 </RelativeLayout>

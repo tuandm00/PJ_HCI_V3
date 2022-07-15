@@ -31,6 +31,7 @@ public class Freelancer_P3 extends AppCompatActivity {
         imgSave = (ImageView) findViewById(R.id.imgSave);
         txtSave = (TextView) findViewById(R.id.textViewSave);
 
+
         // Save the Job
         txtSave.setOnClickListener(new View.OnClickListener() {
             @Override
