@@ -7,9 +7,11 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.ContextMenu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.RelativeLayout;
 import android.widget.Toast;
 
 import com.google.android.material.navigation.NavigationBarView;
@@ -18,7 +20,17 @@ import java.util.ArrayList;
 
 public class User_Message_Conversation extends AppCompatActivity {
     ArrayList<User_Conversation>  userList;
-    ImageView   imgGoBack;
+    ImageView   imgGoBack, imgCompanyAvatar;
+    RelativeLayout  rlUI;
+
+
+    // Context Menu de báo cáo người dùng nếu có dấu hiệu lừa đảo
+    @Override
+    public void onCreateContextMenu(ContextMenu menu, View v, ContextMenu.ContextMenuInfo menuInfo) {
+        getMenuInflater().inflate(R.menu.menu_chat, menu);
+
+        super.onCreateContextMenu(menu, v, menuInfo);
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,6 +39,11 @@ public class User_Message_Conversation extends AppCompatActivity {
 
         RecyclerView rvUser = findViewById(R.id.rvConversation);
         imgGoBack = (ImageView) findViewById(R.id.imgConvBack);
+        imgCompanyAvatar = (ImageView) findViewById(R.id.imgCompanyChatAvatar);
+        rlUI = (RelativeLayout) findViewById(R.id.rlUI);
+
+        // Khai báo Context Menu, gắn nó vô Avatar
+        registerForContextMenu(imgCompanyAvatar);
 
         userList = new ArrayList<>();
 
@@ -46,5 +63,7 @@ public class User_Message_Conversation extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+
     }
 }

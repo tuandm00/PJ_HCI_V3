@@ -3,6 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:id="@+id/rlUI"
     android:layout_height="match_parent"
     android:background="@color/white"
     tools:context=".Freelancer_P8">
@@ -20,7 +21,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="62dp"
         android:layout_marginTop="13dp"
-        android:text="PhuongPD"
+        android:text="Duy Phương"
         android:textColor="@color/black"
         android:textSize="20sp"
         android:textStyle="bold" />
@@ -36,22 +37,22 @@
         android:layout_marginStart="62dp"
         android:layout_marginTop="51dp"
         android:layout_marginEnd="-51dp"
-        android:layout_toStartOf="@+id/imageView16"
+        android:layout_toStartOf="@+id/imgCompanyChatAvatar"
         android:text="HR Consultan, ABC Company"
         android:textColor="@color/black"
-        android:textSize="15sp"
+        android:textSize="12sp"
         android:textStyle="italic" />
 
     <ImageView
-        android:id="@+id/imageView16"
+        android:id="@+id/imgCompanyChatAvatar"
         android:layout_width="93dp"
         android:layout_height="62dp"
         android:layout_alignBottom="@+id/textView57"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="24dp"
-        android:layout_marginBottom="-40dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="58dp"
+        android:layout_marginBottom="-38dp"
         android:src="@drawable/avatar1" />
 
     <androidx.recyclerview.widget.RecyclerView
@@ -72,8 +73,8 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="27dp"
-        android:layout_marginEnd="-3dp"
-        android:layout_marginBottom="21dp"
+        android:layout_marginEnd="-2dp"
+        android:layout_marginBottom="22dp"
         android:layout_toStartOf="@+id/imageView24"
         android:backgroundTint="@color/black"
         android:ems="10"
@@ -114,7 +115,7 @@
         android:layout_alignEnd="@+id/editTextTextPersonName4"
         android:layout_alignBottom="@+id/editTextTextPersonName4"
         android:layout_marginTop="34dp"
-        android:layout_marginEnd="54dp"
+        android:layout_marginEnd="37dp"
         android:layout_marginBottom="16dp"
         app:srcCompat="@drawable/ic_baseline_attach_file_24" />
 
@@ -126,7 +127,49 @@
         android:layout_alignEnd="@+id/editTextTextPersonName4"
         android:layout_alignBottom="@+id/editTextTextPersonName4"
         android:layout_marginTop="35dp"
-        android:layout_marginEnd="19dp"
+        android:layout_marginEnd="3dp"
         android:layout_marginBottom="15dp"
         app:srcCompat="@drawable/ic_baseline_photo_camera_24" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="73dp"
+        app:srcCompat="@drawable/ic_baseline_circle_24" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="42dp"
+        app:srcCompat="@drawable/ic_baseline_call_24" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="42dp"
+        app:srcCompat="@drawable/ic_baseline_video_call_24" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="wrap_content"
+        android:layout_height="27dp"
+        android:layout_alignTop="@+id/editTextTextPersonName4"
+        android:layout_alignBottom="@+id/editTextTextPersonName4"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="69dp"
+        android:layout_marginBottom="15dp"
+        android:layout_toStartOf="@+id/imageView24"
+        app:srcCompat="@drawable/ic_baseline_monetization_on_24" />
 </RelativeLayout>

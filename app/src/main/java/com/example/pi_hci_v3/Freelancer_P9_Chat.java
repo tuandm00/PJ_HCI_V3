@@ -40,10 +40,11 @@ public class Freelancer_P9_Chat extends AppCompatActivity {
 
         userList = new ArrayList<>();
 
-        userList.add(new User_Chat("Thao Nguyen", "Đây là những gì mà chúng ta bàn", "14:59", R.drawable.avatar1));
-        userList.add(new User_Chat("HauNT", "Đây là  chúng ta bàn", "14:59", R.drawable.avatar2));
-        userList.add(new User_Chat("BaoCG", "Đây là  mà chúng ta bàn", "14:59", R.drawable.book));
-        userList.add(new User_Chat("Test", "Đây là  gì mà chúng ta bàn", "14:59", R.drawable.back));
+        userList.add(new User_Chat("Duy Phương", "Đây là những gì mà chúng ta bàn", "14:59", R.drawable.avatar1));
+        userList.add(new User_Chat("Thomas Edith", "Đây là  chúng ta bàn", "14:59", R.drawable.avatar3));
+        userList.add(new User_Chat("Minh Tuấn", "Đây là  mà chúng ta bàn", "14:59", R.drawable.avatar4));
+        userList.add(new User_Chat("Tony Trần", "Đây là  gì mà chúng ta bàn", "14:59", R.drawable.avatar5));
+        userList.add(new User_Chat("Hùng Bảo", "Đây là  gì mà chúng ta bàn", "14:59", R.drawable.avatar6));
 
         User_Chat_Adapter adapter = new User_Chat_Adapter(userList);
         rvUser.setAdapter(adapter);
@@ -72,7 +73,7 @@ public class Freelancer_P9_Chat extends AppCompatActivity {
                         break;
                     case R.id.profile:
                         Toast.makeText(Freelancer_P9_Chat.this,"Trang Cá Nhân", Toast.LENGTH_SHORT).show();
-                        Intent intent4 = new Intent(Freelancer_P9_Chat.this, Freelancer_P7.class);
+                        Intent intent4 = new Intent(Freelancer_P9_Chat.this, ProfileUser.class);
                         startActivity(intent4);
                         break;
                 }
